@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3c460c2b-c6b4-48ec-bb86-90c06fda59db")
+	(paper "A")
+	(title_block
+		(date "2026-10-24")
+		(rev "xx")
+		(comment 1 "Shining Wang")
+		(comment 2 "In progress")
+	)
+	(lib_symbols)
+)
