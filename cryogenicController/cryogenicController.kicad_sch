@@ -13,16 +13,6 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 153.67 100.33) (xy 160.02 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b4c750-a514-4bc0-b046-01d8623a71cc")
-	)
-	(wire
-		(pts
 			(xy 153.67 133.35) (xy 160.02 133.35)
 		)
 		(stroke
@@ -241,29 +231,9 @@
 				(justify left top)
 			)
 		)
-		(pin "3v3" input
-			(at 128.27 78.74 180)
-			(uuid "afea7c8d-0167-4ff7-ba51-c23a06764e75")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "XRSn" bidirectional
 			(at 153.67 133.35 0)
 			(uuid "9f384d6b-745d-4cdb-b6f7-a143ed562d64")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDDIO" output
-			(at 153.67 100.33 0)
-			(uuid "186ef81f-1a67-44bb-92d2-3f4a1edaed22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,16 +440,6 @@
 		(pin "TDI" output
 			(at 160.02 125.73 180)
 			(uuid "45365646-b3bb-46ca-bb03-fbcc7001b148")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VDDIO" input
-			(at 160.02 100.33 180)
-			(uuid "a4708c86-1250-49b3-8e00-3c0a0f966005")
 			(effects
 				(font
 					(size 1.27 1.27)

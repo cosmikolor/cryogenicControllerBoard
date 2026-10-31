@@ -11,6 +11,145 @@
 		(comment 2 "In progress")
 	)
 	(lib_symbols
+		(symbol "CryoController:VDDIO"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDDIO"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDIO\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDDIO_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDIO_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -2804,6 +2943,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2919,6 +3197,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDDA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDDA"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDA\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDDA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Tied to low because we are using\ninternally regulated 1.2V VDD"
 		(exclude_from_sim no)
@@ -2992,7 +3548,7 @@
 	)
 	(text "1.2V, supplied internally\nsince VREGEN is tied to low"
 		(exclude_from_sim no)
-		(at 163.83 37.338 0)
+		(at 163.83 38.608 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3137,12 +3693,6 @@
 		(uuid "64887109-174d-44f2-b0d1-34ee420ad9ec")
 	)
 	(junction
-		(at 196.85 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "666dc558-e4b7-416a-9e8f-5cc93c2fa906")
-	)
-	(junction
 		(at 218.44 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3209,6 +3759,12 @@
 		(uuid "ace6a6ca-b465-4fb3-b5e1-9a3da05fd351")
 	)
 	(junction
+		(at 182.88 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adc98fa3-9f59-404e-bc38-eae9f4edd733")
+	)
+	(junction
 		(at 213.36 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3219,18 +3775,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b71a64f2-70cc-4f0c-b6d2-f84952ed1a19")
-	)
-	(junction
-		(at 220.98 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8ea62d3-a29e-404a-a7ac-41b20d92f92a")
-	)
-	(junction
-		(at 209.55 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9a85afc-f20e-4212-84ab-f37318343de3")
 	)
 	(junction
 		(at 184.15 78.74)
@@ -3370,12 +3914,6 @@
 		(color 0 0 0 0)
 		(uuid "f6211405-fd5a-4775-bd8d-863a4c6fa882")
 	)
-	(junction
-		(at 184.15 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f95d8605-323a-4d0a-b845-7b92a91ae779")
-	)
 	(wire
 		(pts
 			(xy 231.14 78.74) (xy 231.14 81.28)
@@ -3428,7 +3966,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 85.09) (xy 196.85 86.36)
+			(xy 196.85 86.36) (xy 196.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3455,26 +3993,6 @@
 			(type default)
 		)
 		(uuid "0e861312-5ec3-4057-936c-3103c57c0ed0")
-	)
-	(wire
-		(pts
-			(xy 220.98 86.36) (xy 220.98 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1228033c-ee81-42a1-8e95-a16a334bc4ad")
-	)
-	(wire
-		(pts
-			(xy 196.85 86.36) (xy 196.85 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1290b32f-3ae2-496f-bab5-dfd8238042ca")
 	)
 	(wire
 		(pts
@@ -3548,7 +4066,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 104.14) (xy 218.44 106.68)
+			(xy 218.44 105.41) (xy 218.44 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3768,16 +4286,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 85.09) (xy 209.55 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36798167-b452-474b-9f6e-75435a3bec87")
-	)
-	(wire
-		(pts
 			(xy 231.14 55.88) (xy 233.68 55.88)
 		)
 		(stroke
@@ -3785,16 +4293,6 @@
 			(type default)
 		)
 		(uuid "3b6d41f5-500e-406b-8bc9-a188e189a18d")
-	)
-	(wire
-		(pts
-			(xy 184.15 85.09) (xy 184.15 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da8d94b-7e7f-4f29-ba09-366081f85ecc")
 	)
 	(wire
 		(pts
@@ -4378,16 +4876,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 46.99) (xy 194.31 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b34294fd-ae71-4bbd-a739-6a09780540ab")
-	)
-	(wire
-		(pts
 			(xy 236.22 135.89) (xy 236.22 139.7)
 		)
 		(stroke
@@ -4428,16 +4916,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 45.72) (xy 233.68 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbb161ed-fde3-4d59-9745-af2be4107ce3")
-	)
-	(wire
-		(pts
 			(xy 231.14 78.74) (xy 233.68 78.74)
 		)
 		(stroke
@@ -4448,7 +4926,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 85.09) (xy 220.98 86.36)
+			(xy 220.98 86.36) (xy 220.98 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4555,6 +5033,16 @@
 			(type default)
 		)
 		(uuid "c3b53f85-d5cd-4fb7-bd1b-9a84dd85a816")
+	)
+	(wire
+		(pts
+			(xy 180.34 33.02) (xy 182.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bb36fd-9d17-495f-9d02-4d04d7ed5412")
 	)
 	(wire
 		(pts
@@ -4788,16 +5276,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 104.14) (xy 218.44 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f196f98a-034e-4125-b71e-093545339cb1")
-	)
-	(wire
-		(pts
 			(xy 172.72 50.8) (xy 182.88 50.8)
 		)
 		(stroke
@@ -4826,26 +5304,6 @@
 		)
 		(uuid "f7fa854f-95e8-446b-b3eb-9a1df4bb1808")
 	)
-	(wire
-		(pts
-			(xy 198.12 46.99) (xy 194.31 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1331bd-c89c-4594-a242-a4e0712b4161")
-	)
-	(label "VDDA"
-		(at 232.41 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0ceb602e-6aff-4467-832d-ceef310b46fd")
-	)
 	(label "GPIO18_X2"
 		(at 50.8 162.56 180)
 		(effects
@@ -4855,26 +5313,6 @@
 			(justify right bottom)
 		)
 		(uuid "0d274779-9720-4ef6-834c-0de1133ea62f")
-	)
-	(label "VDDA"
-		(at 242.57 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24a1035f-c164-48ab-935e-bd5cbd2efdf6")
-	)
-	(label "VDDIO"
-		(at 190.5 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "693222d2-8a43-4044-aa5e-419d939eac8c")
 	)
 	(label "GPIO19_X1"
 		(at 53.34 92.71 180)
@@ -4895,26 +5333,6 @@
 			(justify right bottom)
 		)
 		(uuid "94004c28-316a-404f-9e99-d5c504e18340")
-	)
-	(label "VDDA"
-		(at 154.94 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "96dcf21d-c245-4540-8520-ac851d73d06c")
-	)
-	(label "VDDIO"
-		(at 218.44 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a26f38d4-9286-4171-b581-c5811479d854")
 	)
 	(label "GPIO19_X1"
 		(at 92.71 162.56 0)
@@ -4948,17 +5366,6 @@
 		)
 		(uuid "0e9c56e6-3c69-4f07-9d1a-7af91503d34d")
 	)
-	(hierarchical_label "3v3"
-		(shape input)
-		(at 158.75 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "100f6e95-ba72-473c-9f6c-9d45477c1778")
-	)
 	(hierarchical_label "SCIB_TX"
 		(shape output)
 		(at 104.14 95.25 0)
@@ -4991,28 +5398,6 @@
 			(justify left)
 		)
 		(uuid "a8da2a54-1923-4188-ac52-e94976eeb521")
-	)
-	(hierarchical_label "3v3"
-		(shape input)
-		(at 172.72 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b492cd2e-228e-4ac8-8352-e0fac3ecd348")
-	)
-	(hierarchical_label "VDDIO"
-		(shape output)
-		(at 198.12 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc5abd18-14ab-4022-a0be-475fd5391e26")
 	)
 	(hierarchical_label "XRSn"
 		(shape bidirectional)
@@ -5057,6 +5442,84 @@
 			(justify left)
 		)
 		(uuid "f5ae70a2-313f-4f1d-9b60-b8300bba5776")
+	)
+	(symbol
+		(lib_id "CryoController:VDDIO")
+		(at 182.88 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "020dc4b3-5744-4174-92b5-672e79145699")
+		(property "Reference" "#PWR027"
+			(at 182.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDIO"
+			(at 182.88 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDIO\""
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f9c9254-5629-454f-bd4c-dcf035c829f9")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MPLab:capacitor")
@@ -6708,6 +7171,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 172.72 135.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "406decd7-951f-4971-a7c7-ac81410a87b6")
+		(property "Reference" "#PWR029"
+			(at 176.53 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 168.91 135.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "536c49f8-ee4d-407b-96c1-85cf9cbdb526")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MPLab:capacitor")
 		(at 182.88 36.83 180)
 		(unit 1)
@@ -7458,6 +8000,164 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.75 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6067827c-7165-4cd3-b3c0-9916fe52658a")
+		(property "Reference" "#PWR023"
+			(at 162.56 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 154.94 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75e8bee3-d87e-4cc0-9f35-aec787d6dbc3")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 242.57 135.89 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64f56882-456a-49a0-b6ae-248690d5e89c")
+		(property "Reference" "#PWR026"
+			(at 238.76 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 246.38 135.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 242.57 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98d67924-04b8-4a17-b1f6-6de2eae9b299")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MPLab:capacitor")
 		(at 184.15 83.82 180)
 		(unit 1)
@@ -7602,6 +8302,163 @@
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 180.34 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69af076c-0dfd-4d32-bc70-25cfc0bc9f5c")
+		(property "Reference" "#PWR030"
+			(at 184.15 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 176.53 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5ffe634-d70c-4751-b879-510347bb6499")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CryoController:VDDIO")
+		(at 218.44 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73eb2e52-ab68-48db-a9f3-85ec3566884c")
+		(property "Reference" "#PWR028"
+			(at 218.44 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDIO"
+			(at 218.44 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDIO\""
+			(at 218.44 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef39c5f5-8ba9-4fba-b620-e9ee5097f231")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8183,6 +9040,85 @@
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 233.68 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91d554d4-70f3-4dfd-a60a-5be1d14ecab1")
+		(property "Reference" "#PWR024"
+			(at 237.49 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 229.87 45.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 233.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdfca7b4-869e-43b8-96cb-12a54eded6c8")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
+					(reference "#PWR024")
+					(unit 1)
 				)
 			)
 		)
@@ -9058,6 +9994,85 @@
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 154.94 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3f082d0-bad5-403f-813b-b9336f7e97ba")
+		(property "Reference" "#PWR025"
+			(at 158.75 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 151.13 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9b7693b-a0b4-46a6-9824-52576385f6cd")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)

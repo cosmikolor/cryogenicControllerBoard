@@ -739,6 +739,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CryoController:VDDIO"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDDIO"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDIO\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDDIO_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDIO_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MPLab:resistor"
 			(pin_numbers
 				(hide yes)
@@ -1092,7 +1231,7 @@
 	)
 	(text "UART Idles on high,\npull up to VDDIO\nwhen not in use"
 		(exclude_from_sim no)
-		(at 211.074 109.982 0)
+		(at 211.582 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1346,16 +1485,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 82.55) (xy 90.17 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82ab689a-ca06-471b-8827-8770f5916278")
-	)
-	(wire
-		(pts
 			(xy 64.77 97.79) (xy 68.58 97.79)
 		)
 		(stroke
@@ -1545,17 +1674,6 @@
 		)
 		(uuid "010afec9-9408-41fd-8de3-da8cf275d2b3")
 	)
-	(hierarchical_label "VDDIO"
-		(shape input)
-		(at 92.71 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "188d0579-ec8f-4151-914e-9770f2680de5")
-	)
 	(hierarchical_label "TDO"
 		(shape input)
 		(at 85.09 97.79 0)
@@ -1588,17 +1706,6 @@
 			(justify left)
 		)
 		(uuid "4a09cb2e-60b7-4295-a910-4fc50e924629")
-	)
-	(hierarchical_label "VDDIO"
-		(shape input)
-		(at 194.31 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5f2234e3-0ca2-413d-aee9-90ddaae53e1e")
 	)
 	(hierarchical_label "SCIA_TX"
 		(shape input)
@@ -1774,6 +1881,85 @@
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CryoController:VDDIO")
+		(at 194.31 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "243f24b9-4e37-4e84-ba04-4b06310162ee")
+		(property "Reference" "#PWR032"
+			(at 190.5 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDIO"
+			(at 198.12 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDIO\""
+			(at 194.31 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e963bffd-a105-408a-9e4a-b68d1006c37e")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2385,6 +2571,84 @@
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CryoController:VDDIO")
+		(at 90.17 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93ad6361-5482-41c8-aafe-94a34fe434d8")
+		(property "Reference" "#PWR031"
+			(at 90.17 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDIO"
+			(at 90.17 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDIO\""
+			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84f6b604-47d4-4354-8500-df819bffb749")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
