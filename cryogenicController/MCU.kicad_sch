@@ -5344,6 +5344,30 @@
 		)
 		(uuid "ab11abb1-5411-4faf-8911-23533b096082")
 	)
+	(global_label "ANALOG_PULSE"
+		(shape input)
+		(at 100.33 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f705af7-f19f-4525-85fa-fa13d8e321e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.4062 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "TDO"
 		(shape output)
 		(at 104.14 62.23 0)
@@ -10695,6 +10719,10 @@
 		)
 		(instances
 			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
+					(reference "U1")
+					(unit 1)
+				)
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
 					(reference "U1")
 					(unit 1)
