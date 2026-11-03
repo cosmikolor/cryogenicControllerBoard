@@ -3490,8 +3490,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Blend IN+, V_ISO, and GND_ISO into one voltage, CONT.\nTracks your input but stays in the 555's working window: \n0-10 V in becomes about 1-4 V out."
+		(exclude_from_sim no)
+		(at 52.832 119.634 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54fcdf66-398e-4e32-b4a4-2687bea3451e")
+	)
+	(text "V_ISO = 5V, is more or less what I was thinking\n"
+		(exclude_from_sim no)
+		(at 75.946 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "def6aa80-9e79-4e13-a303-94946f71bfa0")
+	)
 	(junction
-		(at 128.27 99.06)
+		(at 128.27 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82c5f571-349e-47d5-91f2-f947fddbac6d")
@@ -3521,7 +3542,7 @@
 		(uuid "ac0f67c2-62c3-437c-b87e-b0c4e77fb400")
 	)
 	(junction
-		(at 209.55 90.17)
+		(at 210.82 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c11f803f-56d2-44ea-9942-ee05dc9cf4b8")
@@ -3568,26 +3589,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 96.52) (xy 128.27 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15a608fa-3ab3-473d-8359-d0a41cb73618")
-	)
-	(wire
-		(pts
-			(xy 139.7 99.06) (xy 139.7 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a1c5da5-9028-42c4-9eb2-527bd995bb13")
-	)
-	(wire
-		(pts
 			(xy 110.49 90.17) (xy 118.11 90.17)
 		)
 		(stroke
@@ -3598,13 +3599,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 161.29 78.74)
+			(xy 160.02 78.74) (xy 158.75 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d3a87db-24a7-431e-9d61-e783cd69f595")
+		(uuid "293b7fee-d9ec-4fd9-917d-4421a7b90aee")
 	)
 	(wire
 		(pts
@@ -3618,13 +3619,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 105.41) (xy 209.55 100.33)
+			(xy 210.82 82.55) (xy 210.82 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a2e650a-56e2-4430-b471-a098d992cca3")
+	)
+	(wire
+		(pts
+			(xy 63.5 97.79) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480d3b8a-cea0-4e5d-94ec-6d797a231ca5")
 	)
 	(wire
 		(pts
@@ -3668,26 +3679,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 91.44) (xy 128.27 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67b812a6-5880-4cfc-9567-ac9d1b95d576")
-	)
-	(wire
-		(pts
-			(xy 219.71 90.17) (xy 209.55 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d8101a-ba68-4604-b2fc-1d1c9322edd8")
-	)
-	(wire
-		(pts
 			(xy 123.19 90.17) (xy 128.27 90.17)
 		)
 		(stroke
@@ -3708,7 +3699,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 90.17) (xy 209.55 90.17)
+			(xy 201.93 90.17) (xy 219.71 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3748,16 +3739,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 97.79) (xy 76.2 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e2f92e1-a0d4-47b5-a3c0-ff6bed22c22b")
-	)
-	(wire
-		(pts
 			(xy 81.28 97.79) (xy 87.63 97.79)
 		)
 		(stroke
@@ -3768,7 +3749,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 99.06) (xy 139.7 99.06)
+			(xy 128.27 97.79) (xy 139.7 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3778,7 +3759,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 100.33) (xy 128.27 99.06)
+			(xy 128.27 96.52) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3788,7 +3769,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 90.17) (xy 209.55 95.25)
+			(xy 210.82 90.17) (xy 210.82 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3805,6 +3786,16 @@
 			(type default)
 		)
 		(uuid "b9b0bc26-5578-4e98-a55f-79a5001f0471")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0992645-bd71-47a8-8409-94e14f385e87")
 	)
 	(wire
 		(pts
@@ -3857,7 +3848,7 @@
 		(uuid "f5860040-0922-490e-9c74-712699cfda17")
 	)
 	(label "IN+"
-		(at 63.5 97.79 0)
+		(at 68.58 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5053,7 +5044,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 209.55 105.41 180)
+		(at 210.82 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5064,7 +5055,7 @@
 		(fields_autoplaced yes)
 		(uuid "96e5541e-e585-4465-8ba4-b5db2869030f")
 		(property "Reference" "#PWR039"
-			(at 209.55 101.6 0)
+			(at 210.82 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5075,7 +5066,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 209.55 110.49 0)
+			(at 210.82 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5085,7 +5076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 105.41 0)
+			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5096,7 +5087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 105.41 0)
+			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5107,7 +5098,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 209.55 105.41 0)
+			(at 210.82 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6621,7 +6612,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 161.29 78.74 0)
+		(at 160.02 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6632,7 +6623,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc33767e-dfc4-4752-b864-19e5bc00052f")
 		(property "Reference" "#PWR035"
-			(at 161.29 85.09 0)
+			(at 166.37 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6643,17 +6634,18 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 161.29 83.82 0)
+			(at 163.83 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 78.74 0)
+			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6664,7 +6656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 78.74 0)
+			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6675,7 +6667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 161.29 78.74 0)
+			(at 160.02 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6699,7 +6691,7 @@
 	)
 	(symbol
 		(lib_id "MPLab:resistor")
-		(at 209.55 97.79 0)
+		(at 210.82 86.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6710,7 +6702,7 @@
 		(fields_autoplaced yes)
 		(uuid "f467d199-3a42-4d6c-a9e8-192d598dd7cf")
 		(property "Reference" "R21"
-			(at 212.09 96.5199 0)
+			(at 208.28 87.6301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6721,7 +6713,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 212.09 99.0599 0)
+			(at 208.28 85.0901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6732,7 +6724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 97.79 0)
+			(at 210.82 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6743,7 +6735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 97.79 0)
+			(at 210.82 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6754,7 +6746,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 209.55 97.79 0)
+			(at 210.82 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6765,7 +6757,7 @@
 			)
 		)
 		(property "Power" "xx"
-			(at 209.3976 99.7458 90)
+			(at 210.9724 84.4042 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6776,7 +6768,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 209.7024 99.7458 90)
+			(at 210.6676 84.4042 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6787,7 +6779,7 @@
 			)
 		)
 		(property "Tolerance" "xx"
-			(at 209.7024 95.8342 90)
+			(at 210.6676 88.3158 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6798,7 +6790,7 @@
 			)
 		)
 		(property "Voltage" "xx"
-			(at 209.3976 95.8342 90)
+			(at 210.9724 88.3158 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
