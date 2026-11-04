@@ -169,6 +169,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CryoController:VDDIO"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDDIO"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDIO\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDDIO_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDIO_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Isolator:4N25"
 			(pin_names
 				(offset 1.016)
@@ -3877,29 +4016,16 @@
 		)
 		(uuid "eb769450-d007-4855-9a42-664a22be0636")
 	)
-	(global_label "ANALOG_PULSE"
+	(hierarchical_label "ANALOG_PULSE"
 		(shape output)
 		(at 219.71 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "11dbea7a-a0c4-468e-bd82-5c522e1e15ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.7862 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "59b71b1e-0820-41dc-85ca-6892e97a29d6")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -3913,7 +4039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "129a0d77-93f4-4e80-a2c1-d13226f00b97")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0408"
 			(at 139.7 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3973,7 +4099,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR043")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -3991,7 +4117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a52a9f8-02b8-48cb-8d35-c3caca626674")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0407"
 			(at 128.27 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4051,7 +4177,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR041")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -4069,7 +4195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e2564fc-368c-442a-8e8b-9d9d5a7f1812")
-		(property "Reference" "C43"
+		(property "Reference" "C402"
 			(at 156.718 76.708 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -4201,7 +4327,85 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "C43")
+					(reference "C402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CryoController:VDDIO")
+		(at 210.82 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fd75376-cfa1-44d2-8700-5f967eb7e9bd")
+		(property "Reference" "#PWR0413"
+			(at 210.82 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDIO"
+			(at 210.82 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDIO\""
+			(at 210.82 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3408a045-aa04-472f-9545-9fdca4af9f50")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -4218,7 +4422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "463e6b85-2373-4a2b-a220-36c97014ffb9")
-		(property "Reference" "R23"
+		(property "Reference" "R404"
 			(at 120.65 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4324,7 +4528,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "R23")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -4341,7 +4545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49321cda-cf88-492f-b26f-23944d091b3f")
-		(property "Reference" "U4"
+		(property "Reference" "U402"
 			(at 159.258 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4421,7 +4625,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "U4")
+					(reference "U402")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5432b3a9-d494-4d28-bff3-5a636f8a6a1e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0406"
 			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4499,7 +4703,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR042")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -4517,7 +4721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6045b039-ebbf-4a60-9d36-853abb714ffe")
-		(property "Reference" "J5"
+		(property "Reference" "J401"
 			(at 58.42 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4579,7 +4783,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "J5")
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -4597,7 +4801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "627d3b2f-8410-4cf3-a66c-bd1a6e214caa")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0405"
 			(at 87.63 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4657,7 +4861,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR036")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -4675,7 +4879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70ef89e1-ef40-4602-8002-8022a15ef794")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0412"
 			(at 201.93 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4735,7 +4939,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR038")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -4753,7 +4957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ec4da78-1871-4fdb-8782-4c80b86c8bd7")
-		(property "Reference" "R17"
+		(property "Reference" "R403"
 			(at 90.17 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +5065,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "R17")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -4879,7 +5083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8341f0a4-d3e5-4101-a5a6-95161d3d19d5")
-		(property "Reference" "J6"
+		(property "Reference" "J402"
 			(at 58.42 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4941,7 +5145,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "J6")
+					(reference "J402")
 					(unit 1)
 				)
 			)
@@ -4959,7 +5163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aa3a248-c06f-4aa0-88a2-69b1e6541446")
-		(property "Reference" "U3"
+		(property "Reference" "U403"
 			(at 194.31 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5036,85 +5240,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 210.82 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96e5541e-e585-4465-8ba4-b5db2869030f")
-		(property "Reference" "#PWR039"
-			(at 210.82 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 210.82 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 210.82 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c1cfbd6-5867-4e2f-8aaa-c48fc5d99709")
-		)
-		(instances
-			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR039")
+					(reference "U403")
 					(unit 1)
 				)
 			)
@@ -5132,7 +5258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "971c93ce-fe71-4133-b476-96d21113bca0")
-		(property "Reference" "R20"
+		(property "Reference" "R406"
 			(at 181.61 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5238,7 +5364,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "R20")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -5255,7 +5381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d1e59ab-fc35-43a3-9f2c-0b7d6f669a51")
-		(property "Reference" "R22"
+		(property "Reference" "R405"
 			(at 133.35 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +5487,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "R22")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -5379,7 +5505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2c9b129-427d-4601-b926-8f2757994f89")
-		(property "Reference" "R16"
+		(property "Reference" "R402"
 			(at 90.17 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5487,7 +5613,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "R16")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -5505,7 +5631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a595a014-49e9-49ab-9d1c-5b87f4d340d4")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0403"
 			(at 67.31 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5565,7 +5691,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR033")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -5582,7 +5708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae85cc6f-db98-4ed8-b10b-0470c43186d1")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0401"
 			(at 63.5 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5642,7 +5768,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR040")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -5660,7 +5786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af67b46b-6aff-45e8-8f24-64e555676f4a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0402"
 			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5720,7 +5846,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR037")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -5738,7 +5864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b21c5a05-9aab-448f-acaa-14a39c01ae4f")
-		(property "Reference" "C45"
+		(property "Reference" "C401"
 			(at 130.302 103.378 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5870,7 +5996,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "C45")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -5888,7 +6014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc3826e0-5475-4516-bd77-b197cd606e81")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0411"
 			(at 172.72 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5948,7 +6074,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR045")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -5966,7 +6092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c80ef4a4-3635-4333-84b5-bb2fcb15e664")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0409"
 			(at 149.86 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6026,7 +6152,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR034")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -6420,7 +6546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5186369-8aba-4476-81d4-b7a1171ddd5c")
-		(property "Reference" "R15"
+		(property "Reference" "R401"
 			(at 78.74 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6652,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "R15")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -6544,7 +6670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9eb8852-6cd8-43d0-944e-7d04fdfccc52")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0404"
 			(at 87.63 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6604,7 +6730,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR044")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -6622,7 +6748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc33767e-dfc4-4752-b864-19e5bc00052f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0410"
 			(at 166.37 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6683,7 +6809,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "#PWR035")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -6701,7 +6827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f467d199-3a42-4d6c-a9e8-192d598dd7cf")
-		(property "Reference" "R21"
+		(property "Reference" "R407"
 			(at 208.28 87.6301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6809,7 +6935,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "R21")
+					(reference "R407")
 					(unit 1)
 				)
 			)

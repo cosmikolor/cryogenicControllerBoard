@@ -1774,7 +1774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "058ea149-af52-4688-a09e-7576d672abd8")
-		(property "Reference" "R10"
+		(property "Reference" "R603"
 			(at 91.44 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1880,7 +1880,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "R10")
+					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -1898,7 +1898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "243f24b9-4e37-4e84-ba04-4b06310162ee")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0604"
 			(at 190.5 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -1959,7 +1959,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "#PWR032")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -1977,7 +1977,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "25c00f7d-f34d-495b-b46d-ec22bfa1ffb9")
-		(property "Reference" "R8"
+		(property "Reference" "R604"
 			(at 95.25 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2083,7 +2083,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "R8")
+					(reference "R604")
 					(unit 1)
 				)
 			)
@@ -2101,7 +2101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4df4b935-9d56-49d9-accb-a208ce6fa715")
-		(property "Reference" "J2"
+		(property "Reference" "J602"
 			(at 174.625 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2166,7 +2166,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "J2")
+					(reference "J602")
 					(unit 1)
 				)
 			)
@@ -2184,7 +2184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5106e952-b3f8-4fca-a2b9-4a9d0726b739")
-		(property "Reference" "R12"
+		(property "Reference" "R605"
 			(at 190.5 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2290,7 +2290,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "R12")
+					(reference "R605")
 					(unit 1)
 				)
 			)
@@ -2308,7 +2308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8164cf6c-fe0b-402c-bfa5-099fbef25259")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0601"
 			(at 64.77 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2368,7 +2368,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "#PWR011")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -2386,7 +2386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "864d8a0e-6b52-4718-a560-ba66c09ea07c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0603"
 			(at 182.88 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2446,7 +2446,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "#PWR012")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -2464,7 +2464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b911250-79bf-482c-b873-773d77c4d0bf")
-		(property "Reference" "R9"
+		(property "Reference" "R602"
 			(at 91.44 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2570,7 +2570,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "R9")
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -2588,7 +2588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93ad6361-5482-41c8-aafe-94a34fe434d8")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0602"
 			(at 90.17 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2648,7 +2648,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "#PWR031")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -2666,7 +2666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a85a446f-e4a8-4231-8145-6ad751fe9497")
-		(property "Reference" "R13"
+		(property "Reference" "R606"
 			(at 193.04 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2774,7 +2774,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "R13")
+					(reference "R606")
 					(unit 1)
 				)
 			)
@@ -2792,7 +2792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0bbe254-0f93-41b1-9313-0ce283de63ef")
-		(property "Reference" "R7"
+		(property "Reference" "R601"
 			(at 92.71 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2900,7 +2900,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "R7")
+					(reference "R601")
 					(unit 1)
 				)
 			)
@@ -2918,7 +2918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1817b16-8a29-4c4e-8dbd-ed80748ab3e5")
-		(property "Reference" "R11"
+		(property "Reference" "R607"
 			(at 193.04 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3026,7 +3026,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "R11")
+					(reference "R607")
 					(unit 1)
 				)
 			)
@@ -3044,7 +3044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f202a72d-be72-4a9b-8828-9812d6baa3ca")
-		(property "Reference" "J1"
+		(property "Reference" "J601"
 			(at 74.93 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3164,7 +3164,7 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
-					(reference "J1")
+					(reference "J601")
 					(unit 1)
 				)
 			)

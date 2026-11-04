@@ -538,7 +538,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -661,7 +661,7 @@
         "uuid": "cbeeb003-c3fe-4807-ac54-05dbc29d640b"
       }
     ],
-    "used_designators": "U1,U3-4,C1-45,#PWR1-45,SW1,J1-6,R1-23,Q1,Y1",
+    "used_designators": "U1,U3-5,U201,U401-403,C1-54,C201-219,C301-309,C401-402,C501-523,#PWR1-82,#PWR201-210,#PWR301-336,#PWR401-413,#PWR501-527,#PWR601-604,SW1,SW501,J1-7,J201,J301,J401-402,J501,J601-602,R1-38,R201,R301-317,R401-407,R501-511,R601-607,Q1,Q201,Y1,Y501,U_ISO2-4,U_ISO301-304",
     "variants": []
   },
   "sheets": [
