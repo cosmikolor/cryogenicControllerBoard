@@ -4076,6 +4076,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 64.77) (xy 100.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca67ea9-aaf7-4466-8f82-48cb6eec988c")
+	)
+	(wire
+		(pts
 			(xy 231.14 35.56) (xy 231.14 38.1)
 		)
 		(stroke
@@ -5344,9 +5354,9 @@
 		)
 		(uuid "ab11abb1-5411-4faf-8911-23533b096082")
 	)
-	(global_label "ANALOG_PULSE"
+	(global_label "AIN_FREQ"
 		(shape input)
-		(at 100.33 64.77 0)
+		(at 101.6 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5354,9 +5364,9 @@
 			)
 			(justify left)
 		)
-		(uuid "3f705af7-f19f-4525-85fa-fa13d8e321e7")
+		(uuid "a577e5a1-e9b7-45b1-8515-02d17f3b55f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.4062 64.77 0)
+			(at 113.4148 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10719,10 +10729,6 @@
 		)
 		(instances
 			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "U1")
-					(unit 1)
-				)
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
 					(reference "U1")
 					(unit 1)
