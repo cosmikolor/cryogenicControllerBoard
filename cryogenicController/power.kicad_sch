@@ -2740,7 +2740,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 92.71 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2969,7 +2969,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3119,7 +3119,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 53.34 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3246,7 +3246,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3556,7 +3556,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 252.73 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3707,7 +3707,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 209.55 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4092,7 +4092,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 242.57 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4243,7 +4243,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4394,7 +4394,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 113.03 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4623,7 +4623,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 144.78 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4774,7 +4774,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 166.37 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4925,7 +4925,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 232.41 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5076,7 +5076,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 123.19 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5343,7 +5343,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 212.09 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5572,7 +5572,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 179.07 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5802,7 +5802,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 262.89 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5950,7 +5950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RD_8_2_ADI"
+		(property "Footprint" ""
 			(at 199.39 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6056,7 +6056,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 199.39 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6285,7 +6285,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 189.23 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6514,7 +6514,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 102.87 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6665,7 +6665,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "microcontrollers:F280039CSPZR"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 143.51 69.85 0)
 			(hide yes)
 			(show_name no)

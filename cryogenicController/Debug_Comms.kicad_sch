@@ -1794,7 +1794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1997,7 +1997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 95.25 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2204,7 +2204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 190.5 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2484,7 +2484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.44 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2688,7 +2688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 190.5 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2814,7 +2814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 90.17 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2940,7 +2940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 190.5 109.22 0)
 			(hide yes)
 			(show_name no)
