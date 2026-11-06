@@ -5678,7 +5678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 165.1 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5959,7 +5959,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 38.1 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6164,7 +6164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical"
 			(at 59.69 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7661,7 +7661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 38.1 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9882,7 +9882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 165.1 41.91 0)
 			(hide yes)
 			(show_name no)

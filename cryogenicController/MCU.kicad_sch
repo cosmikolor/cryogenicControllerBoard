@@ -8938,7 +8938,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 52.07 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9008,6 +9008,10 @@
 		(instances
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/4d7a613b-5bc2-4eda-bbfe-5504f81f0c12"
+					(reference "Y501")
+					(unit 1)
+				)
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/b717e6c9-28c7-4063-a514-cca3912cb03a"
 					(reference "Y501")
 					(unit 1)
 				)
@@ -9953,7 +9957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
 			(at 118.11 138.43 0)
 			(hide yes)
 			(show_name no)

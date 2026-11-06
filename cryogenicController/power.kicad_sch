@@ -3473,7 +3473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 26.67 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5224,7 +5224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 50.8 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5950,7 +5950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
 			(at 199.39 63.5 0)
 			(hide yes)
 			(show_name no)
