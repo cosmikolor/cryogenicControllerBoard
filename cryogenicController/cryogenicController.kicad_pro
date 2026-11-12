@@ -678,7 +678,7 @@
         "uuid": "cbeeb003-c3fe-4807-ac54-05dbc29d640b"
       }
     ],
-    "used_designators": "U1-5,C1-45,C403-404,#PWR1-50,#PWR402-403,#PWR414-416,SW1,R1-25,R408-410,J1-6,Y1,Q1",
+    "used_designators": "U1-6,U404-407,C1-45,C403-412,#PWR1-50,#PWR402-403,#PWR414-454,SW1,R1-25,R408-433,J1-6,J403-407,Y1,Q1",
     "variants": []
   },
   "sheets": [
@@ -705,6 +705,26 @@
     [
       "5228ad07-d553-4a56-ba6e-a56ecb5b2d4c",
       "JTAG_UART"
+    ],
+    [
+      "fbe03df1-8a01-4a50-85fc-07ab986c5f28",
+      "Analog1"
+    ],
+    [
+      "ee5533e0-fcc9-413d-a8be-d654e34bd221",
+      "Analog2"
+    ],
+    [
+      "e897aed2-7ecc-43a4-9f04-6cf7864c3922",
+      "Analog_Board"
+    ],
+    [
+      "574d5b7e-4517-4e2c-a65d-89d7e124f3ee",
+      "Analog_Board1"
+    ],
+    [
+      "cbdece9b-8b45-4b34-a432-4762692769f4",
+      "Analog_Board2"
     ]
   ],
   "text_variables": {},

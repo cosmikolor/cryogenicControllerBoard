@@ -33,6 +33,36 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 54.61) (xy 137.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de925b8-89de-412f-b5c7-8e20cf027527")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 139.7 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23542c38-b78e-46cc-83c0-745caee038a9")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254f7b91-39e1-4976-bc8c-3508fab0d283")
+	)
+	(wire
+		(pts
 			(xy 161.29 107.95) (xy 166.37 107.95)
 		)
 		(stroke
@@ -53,6 +83,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 73.66) (xy 137.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c6e394-8854-4ea1-91de-ed1992d3f7e6")
+	)
+	(wire
+		(pts
 			(xy 161.29 125.73) (xy 166.37 125.73)
 		)
 		(stroke
@@ -63,13 +103,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 82.55) (xy 166.37 82.55)
+			(xy 161.29 90.17) (xy 167.64 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4aeb134d-8117-4f1e-8369-72d736e335ea")
+		(uuid "55be6dd6-0f4d-4b86-ba9e-0043e5903abc")
 	)
 	(wire
 		(pts
@@ -80,6 +120,16 @@
 			(type default)
 		)
 		(uuid "5749210d-1d4c-48b6-acd2-4a8afbff07b0")
+	)
+	(wire
+		(pts
+			(xy 161.29 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9de3f0-a0b8-491f-a543-e882e8941eda")
 	)
 	(wire
 		(pts
@@ -153,6 +203,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 44.45) (xy 139.7 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b492e4-de34-41e8-9f1b-879f070cb65f")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 134.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a082c5-a6ba-4125-9a14-aaccb9a545cb")
+	)
+	(wire
+		(pts
 			(xy 123.19 118.11) (xy 128.27 118.11)
 		)
 		(stroke
@@ -183,6 +253,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 64.77) (xy 113.03 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4062bf6-9660-461e-a6fd-ec933bdeb17f")
+	)
+	(wire
+		(pts
 			(xy 123.19 130.81) (xy 128.27 130.81)
 		)
 		(stroke
@@ -210,6 +290,16 @@
 			(type default)
 		)
 		(uuid "bcb41abe-3e38-4bd6-a722-ad6e9ef8ac6e")
+	)
+	(wire
+		(pts
+			(xy 161.29 81.28) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57188e1-c7a4-401d-96b0-e38d5786bfb4")
 	)
 	(wire
 		(pts
@@ -270,6 +360,16 @@
 			(type default)
 		)
 		(uuid "fb0e5793-31d4-4aaf-82ea-65202f164413")
+	)
+	(wire
+		(pts
+			(xy 165.1 68.58) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7a791b-1232-480a-88f6-a29dd2a5acbb")
 	)
 	(sheet
 		(at 97.79 97.79)
@@ -478,8 +578,8 @@
 		)
 	)
 	(sheet
-		(at 166.37 73.66)
-		(size 25.4 17.78)
+		(at 167.64 88.265)
+		(size 25.4 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -494,7 +594,7 @@
 		)
 		(uuid "3d3daf9c-67ec-4417-afcc-3d3ff5cecd05")
 		(property "Sheetname" "Analog"
-			(at 166.37 72.9484 0)
+			(at 167.64 87.5534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -505,7 +605,7 @@
 			)
 		)
 		(property "Sheetfile" "Analog.kicad_sch"
-			(at 166.37 92.0246 0)
+			(at 167.64 92.6596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -516,7 +616,7 @@
 			)
 		)
 		(pin "ANALOG_PULSE" output
-			(at 166.37 82.55 180)
+			(at 167.64 90.17 180)
 			(uuid "6391afdf-bd8d-4c17-8179-b4387a1637dc")
 			(effects
 				(font
@@ -822,8 +922,58 @@
 			)
 		)
 		(pin "ANALOG_PULSE" input
-			(at 161.29 82.55 0)
+			(at 161.29 90.17 0)
 			(uuid "646f318e-296a-47d3-9007-269b567760f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANALOG_PULSE2" input
+			(at 161.29 81.28 0)
+			(uuid "f4df4852-3be8-4289-847e-076350e934da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANALOG_PULSE3" input
+			(at 161.29 76.2 0)
+			(uuid "48b9bd68-8c0c-4ddf-a8a0-71c17f892785")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANALOG_MAIN1" input
+			(at 134.62 73.66 90)
+			(uuid "44d6fd7a-0e6c-409a-9e4e-59a639bba7a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANALOG_MAIN2" input
+			(at 137.16 73.66 90)
+			(uuid "8957653e-6a4a-44eb-b5a4-5d4cf908a67e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANALOG_MAIN3" input
+			(at 139.7 73.66 90)
+			(uuid "ab8c1626-1025-43cc-ae3d-465eb1ef0e65")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,6 +1126,62 @@
 		)
 	)
 	(sheet
+		(at 97.155 52.705)
+		(size 15.875 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "574d5b7e-4517-4e2c-a65d-89d7e124f3ee")
+		(property "Sheetname" "Analog_Board1"
+			(at 97.155 51.9934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog_Board.kicad_sch"
+			(at 97.155 57.0996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ANALOG_MAIN" output
+			(at 113.03 54.61 0)
+			(uuid "9ef42376-2a47-46de-91ac-f1df4cbda006")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 97.79 73.66)
 		(size 25.4 17.78)
 		(exclude_from_sim no)
@@ -1017,6 +1223,230 @@
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.155 42.545)
+		(size 15.875 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cbdece9b-8b45-4b34-a432-4762692769f4")
+		(property "Sheetname" "Analog_Board2"
+			(at 97.155 41.8334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog_Board.kicad_sch"
+			(at 97.155 46.9396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ANALOG_MAIN" output
+			(at 113.03 44.45 0)
+			(uuid "c4c33a3d-ab98-4ec5-8736-a887f42b728d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.155 62.865)
+		(size 15.875 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e897aed2-7ecc-43a4-9f04-6cf7864c3922")
+		(property "Sheetname" "Analog_Board"
+			(at 97.155 62.1534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog_Board.kicad_sch"
+			(at 97.155 67.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ANALOG_MAIN" output
+			(at 113.03 64.77 0)
+			(uuid "1cadf359-8cf3-42b5-877e-b038d171cf80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 66.167)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 245 245 245 1)
+		)
+		(uuid "ee5533e0-fcc9-413d-a8be-d654e34bd221")
+		(property "Sheetname" "Analog2"
+			(at 167.64 65.4554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog.kicad_sch"
+			(at 167.64 71.8316 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ANALOG_PULSE" output
+			(at 167.64 68.58 180)
+			(uuid "0634a1c5-74f5-41af-9860-47b4d17bfec2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 78.74)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 245 245 245 1)
+		)
+		(uuid "fbe03df1-8a01-4a50-85fc-07ab986c5f28")
+		(property "Sheetname" "Analog1"
+			(at 167.64 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog.kicad_sch"
+			(at 167.64 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ANALOG_PULSE" output
+			(at 167.64 81.28 180)
+			(uuid "62066822-d601-4bc2-b15e-50dfc4864906")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(page "7")
 				)
 			)
 		)
