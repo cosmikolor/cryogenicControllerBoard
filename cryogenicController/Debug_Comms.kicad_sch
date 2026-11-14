@@ -3064,7 +3064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
+		(property "Footprint" "cryoController:SAMTEC_FTSH-107-01-X-DV-K"
 			(at 73.66 100.33 0)
 			(hide yes)
 			(show_name no)
