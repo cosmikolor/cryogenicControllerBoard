@@ -4,8 +4,136 @@
 	(generator_version "10.0")
 	(uuid "b6fa0588-d2b7-4a3a-8d59-573ce20c2f09")
 	(paper "A4")
+	(title_block
+		(rev "1")
+		(comment 1 "Shining Wang and Edwin Rolon")
+		(comment 2 "In Review")
+	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -16,7 +144,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,8 +153,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -57,7 +185,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,16 +218,38 @@
 					)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x06_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -124,8 +274,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -143,7 +315,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -153,6 +325,78 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -803,15 +1047,95 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 190.5 70.866)
+		(end 240.03 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0b604339-13af-4e16-b2f4-b134aa4ea8f5")
+	)
+	(rectangle
+		(start 109.474 70.866)
+		(end 188.722 134.366)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "eb8b2b0c-a030-4ef5-ac55-9bd8101e2e42")
+	)
+	(text "Analog Inputs\n"
+		(exclude_from_sim no)
+		(at 149.86 74.676 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "2f1f091b-e466-4386-a254-c00bd5b89b51")
+	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 215.265 75.184 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "32159d39-78f4-4267-a0cf-4e06ec470f09")
+	)
 	(junction
-		(at 93.98 77.47)
+		(at 148.59 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "568883cf-6e54-49ba-93a4-bb0c3b960f23")
+		(uuid "35fd3fc1-5d37-4550-9900-5c31cd532e46")
+	)
+	(junction
+		(at 148.59 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fb17ef4-cd51-42a4-b962-8ad02cfb453b")
+	)
+	(junction
+		(at 148.59 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65c8a7b6-35f4-403b-b610-dc4bd204838a")
 	)
 	(wire
 		(pts
-			(xy 93.98 77.47) (xy 109.22 77.47)
+			(xy 148.59 123.19) (xy 148.59 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03413ee2-204c-4367-a8d2-6cefc3bbc78f")
+	)
+	(wire
+		(pts
+			(xy 148.59 116.84) (xy 163.83 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd8ef50-2c85-4bad-87f1-889990b5abc0")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 148.59 81.28)
 		)
 		(stroke
 			(width 0)
@@ -821,17 +1145,97 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 77.47) (xy 93.98 77.47)
+			(xy 144.78 116.84) (xy 148.59 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66546356-6953-4637-a432-8e3695603b9a")
+		(uuid "24e4344f-4eae-44d6-aeb9-310a1081a037")
 	)
 	(wire
 		(pts
-			(xy 93.98 83.82) (xy 93.98 86.36)
+			(xy 144.78 99.06) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38216d5f-6bc8-451d-8e1b-53b9d09b6cf4")
+	)
+	(wire
+		(pts
+			(xy 148.59 99.06) (xy 163.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9ebd89-24cb-4347-9c8f-8f5f3493e5c0")
+	)
+	(wire
+		(pts
+			(xy 121.92 104.14) (xy 129.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520eb416-4a1f-4344-933f-6f734d6447e7")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 148.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bb8940-3218-4b95-89b4-de6336022f4f")
+	)
+	(wire
+		(pts
+			(xy 121.92 93.98) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730117fa-331a-482f-b753-96ac9c314f24")
+	)
+	(wire
+		(pts
+			(xy 148.59 99.06) (xy 148.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bd91d2-5281-403f-af43-607be3c32402")
+	)
+	(wire
+		(pts
+			(xy 121.92 99.06) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cce287c-5ee8-4392-ae4a-c4daa306212e")
+	)
+	(wire
+		(pts
+			(xy 129.54 116.84) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ab25b1-997b-402d-9ad0-a2454e6b8455")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 148.59 90.17)
 		)
 		(stroke
 			(width 0)
@@ -841,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 77.47) (xy 85.09 77.47)
+			(xy 129.54 81.28) (xy 139.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -851,28 +1255,79 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 77.47) (xy 93.98 78.74)
+			(xy 129.54 93.98) (xy 129.54 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5df3bc8-8cae-4803-959d-49e70cbe6fb2")
+		(uuid "b66181fa-9da5-49c2-b6ae-aa7104727eef")
 	)
-	(hierarchical_label "ANALOG_MAIN"
+	(wire
+		(pts
+			(xy 148.59 116.84) (xy 148.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1179e7c-b564-4929-bf71-c6645ee94e9c")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 163.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b5f0ed-7433-4505-8b93-86491a06635f")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 129.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf41ae5b-c892-498c-91b0-bc49f1215ab6")
+	)
+	(wire
+		(pts
+			(xy 148.59 105.41) (xy 148.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96f0a47-aba1-4356-9c4e-247d82c0bbfb")
+	)
+	(hierarchical_label "ANALOG_MAIN2"
 		(shape output)
-		(at 19.1961 5.8896 180)
+		(at 226.06 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3d323e57-2714-4f8c-a867-8468af26785c")
+		(uuid "108054a7-0760-4728-b84c-4fbb2d6cf4c6")
 	)
-	(hierarchical_label "ANALOG_MAIN"
+	(hierarchical_label "ANALOG_MAIN3"
 		(shape output)
-		(at 109.22 77.47 0)
+		(at 163.83 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35117553-264b-4231-a1c1-a83c4232c2ed")
+	)
+	(hierarchical_label "ANALOG_MAIN1"
+		(shape output)
+		(at 163.83 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -881,31 +1336,42 @@
 		)
 		(uuid "8c3a1246-c928-49d5-8737-1ec432313f78")
 	)
-	(hierarchical_label "ANALOG_MAIN"
+	(hierarchical_label "ANALOG_MAIN1"
 		(shape output)
-		(at 16.6561 3.3496 180)
+		(at 226.06 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "94286241-8367-4498-8d17-a7b1411e0686")
+		(uuid "8f5e43b2-3fd6-4a0e-a2bc-c408113abd58")
 	)
-	(hierarchical_label "ANALOG_MAIN"
+	(hierarchical_label "ANALOG_MAIN2"
 		(shape output)
-		(at 14.1161 0.8096 180)
+		(at 163.83 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95d03e87-7f9d-4c09-bd83-5fcfee8e37af")
+	)
+	(hierarchical_label "ANALOG_MAIN3"
+		(shape output)
+		(at 226.06 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b9c30cef-65ef-481c-9522-c899e9077d58")
+		(uuid "c0100a56-7e52-4291-a707-79745ff9da60")
 	)
 	(symbol
-		(lib_id "MPLab:capacitor")
-		(at 93.98 81.28 180)
+		(lib_id "power:GND")
+		(at 148.59 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -914,31 +1380,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "72f24020-6476-45e2-ad45-64af8fa509e8")
-		(property "Reference" "C410"
-			(at 96.012 81.788 0)
+		(uuid "13d60faf-4810-4621-8c48-6be8454e7407")
+		(property "Reference" "#PWR0452"
+			(at 148.59 114.3 0)
+			(hide yes)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Value" "18nF"
-			(at 96.012 80.772 0)
+		(property "Value" "GND"
+			(at 148.59 113.03 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 93.98 81.28 0)
+		(property "Footprint" ""
+			(at 148.59 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -949,7 +1414,209 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 81.28 0)
+			(at 148.59 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa504b63-1098-4524-b263-059499b21f79")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
+					(reference "#PWR0452")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MPLab:resistor")
+		(at 142.24 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f3cf7cf-dcab-460d-9c97-8d2bf3a12a32")
+		(property "Reference" "R433"
+			(at 142.24 119.888 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 142.24 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 142.24 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 142.24 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
+			(at 140.2842 116.6876 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Package" "0402"
+			(at 140.2842 116.9924 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right top)
+			)
+		)
+		(property "Tolerance" "0.5%"
+			(at 144.1958 116.9924 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 144.1958 116.6876 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "04255a58-6bb2-46e0-8388-ed54378d2214")
+		)
+		(pin "2"
+			(uuid "887dd1d6-345f-441e-bcf4-182136515d29")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
+					(reference "R433")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MPLab:capacitor")
+		(at 148.59 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42440232-ad32-4bd8-885c-73f1eb336244")
+		(property "Reference" "C411"
+			(at 150.622 103.378 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "18nF"
+			(at 150.622 102.362 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.59 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -960,7 +1627,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 93.98 81.28 0)
+			(at 148.59 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -971,7 +1638,7 @@
 			)
 		)
 		(property "Voltage" "35"
-			(at 94.1324 80.5434 90)
+			(at 148.7424 102.1334 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -983,7 +1650,7 @@
 			)
 		)
 		(property "Type" "C0G"
-			(at 93.8276 82.0166 90)
+			(at 148.4376 103.6066 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -994,7 +1661,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 94.1324 82.0166 90)
+			(at 148.7424 103.6066 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1005,7 +1672,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 93.8022 80.5434 90)
+			(at 148.4122 102.1334 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1017,7 +1684,7 @@
 			)
 		)
 		(property "Mfr" "C1608C0G1V183J080AC"
-			(at 93.98 81.28 0)
+			(at 148.59 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1028,7 +1695,311 @@
 			)
 		)
 		(property "MfrPN" ""
-			(at 93.98 81.28 0)
+			(at 148.59 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "245c88d5-0c08-43d3-9f22-2d71b2221abc")
+		)
+		(pin "1"
+			(uuid "499bb937-4194-45de-b991-f1f6731bad47")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
+					(reference "C411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 121.92 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63102e6b-2d39-4b68-bb7d-a1a65812226e")
+		(property "Reference" "#PWR0455"
+			(at 128.27 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 101.854 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "767ad7b8-3e09-4676-b87b-ff6d51ff3f08")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
+					(reference "#PWR0455")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 226.06 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b484128-afc7-4742-b01a-cc79e487800c")
+		(property "Reference" "TP415"
+			(at 229.362 86.233 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 229.362 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 226.06 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 226.06 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a29a440-6ef4-4257-a408-9e0304fcdf85")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
+					(reference "TP415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MPLab:capacitor")
+		(at 148.59 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72f24020-6476-45e2-ad45-64af8fa509e8")
+		(property "Reference" "C410"
+			(at 150.622 85.598 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "18nF"
+			(at 150.622 84.582 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 148.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "35"
+			(at 148.7424 84.3534 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(face "Consolas")
+					(size 0.635 0.635)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Type" "C0G"
+			(at 148.4376 85.8266 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(property "Package" "0603"
+			(at 148.7424 85.8266 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 148.4122 84.3534 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(face "Consolas")
+					(size 0.635 0.635)
+				)
+				(justify right top)
+			)
+		)
+		(property "Mfr" "C1608C0G1V183J080AC"
+			(at 148.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MfrPN" ""
+			(at 148.59 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1046,14 +2017,6 @@
 		)
 		(instances
 			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/574d5b7e-4517-4e2c-a65d-89d7e124f3ee"
-					(reference "C411")
-					(unit 1)
-				)
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/cbdece9b-8b45-4b34-a432-4762692769f4"
-					(reference "C412")
-					(unit 1)
-				)
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
 					(reference "C410")
 					(unit 1)
@@ -1063,7 +2026,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 86.36 0)
+		(at 148.59 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1074,7 +2037,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a7cf538-5480-4cff-a6d9-25b6be4cfe58")
 		(property "Reference" "#PWR0450"
-			(at 93.98 92.71 0)
+			(at 148.59 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1085,7 +2048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 91.44 0)
+			(at 148.59 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1095,7 +2058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 86.36 0)
+			(at 148.59 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1106,7 +2069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 86.36 0)
+			(at 148.59 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1117,7 +2080,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 86.36 0)
+			(at 148.59 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1132,14 +2095,6 @@
 		)
 		(instances
 			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/574d5b7e-4517-4e2c-a65d-89d7e124f3ee"
-					(reference "#PWR0452")
-					(unit 1)
-				)
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/cbdece9b-8b45-4b34-a432-4762692769f4"
-					(reference "#PWR0454")
-					(unit 1)
-				)
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
 					(reference "#PWR0450")
 					(unit 1)
@@ -1148,8 +2103,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MPLab:resistor")
-		(at 87.63 77.47 270)
+		(lib_id "power:GND1")
+		(at 121.92 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1157,9 +2112,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "967da930-b76e-413c-b7c0-4cfbe86659a1")
-		(property "Reference" "R431"
-			(at 87.63 80.518 90)
+		(uuid "862aeeed-701b-4907-8711-39d3c91e39c5")
+		(property "Reference" "#PWR0456"
+			(at 128.27 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1168,8 +2124,8 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 87.63 82.55 90)
+		(property "Value" "GND"
+			(at 127 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1178,8 +2134,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 87.63 77.47 0)
+		(property "Footprint" ""
+			(at 121.92 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1190,7 +2146,161 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 77.47 0)
+			(at 121.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 121.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "088f7c89-6420-40a6-9d4c-ddade01b97e4")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
+					(reference "#PWR0456")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87cac95c-206e-45fd-a33a-8ad693c75cc3")
+		(property "Reference" "#PWR0454"
+			(at 148.59 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc9bfdc5-eb77-468f-b391-e4692f2017db")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
+					(reference "#PWR0454")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MPLab:resistor")
+		(at 142.24 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "967da930-b76e-413c-b7c0-4cfbe86659a1")
+		(property "Reference" "R431"
+			(at 142.24 84.328 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 142.24 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 142.24 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1201,7 +2311,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 87.63 77.47 0)
+			(at 142.24 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1211,8 +2321,8 @@
 				)
 			)
 		)
-		(property "Power" "xx"
-			(at 85.6742 77.3176 90)
+		(property "Power" "0.063W"
+			(at 140.2842 81.1276 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1223,7 +2333,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 85.6742 77.6224 90)
+			(at 140.2842 81.4324 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1233,8 +2343,8 @@
 				(justify right top)
 			)
 		)
-		(property "Tolerance" "xx"
-			(at 89.5858 77.6224 90)
+		(property "Tolerance" "0.5%"
+			(at 144.1958 81.4324 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1244,8 +2354,8 @@
 				(justify left top)
 			)
 		)
-		(property "Voltage" "xx"
-			(at 89.5858 77.3176 90)
+		(property "Voltage" "25V"
+			(at 144.1958 81.1276 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1263,14 +2373,6 @@
 		)
 		(instances
 			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/574d5b7e-4517-4e2c-a65d-89d7e124f3ee"
-					(reference "R432")
-					(unit 1)
-				)
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/cbdece9b-8b45-4b34-a432-4762692769f4"
-					(reference "R433")
-					(unit 1)
-				)
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
 					(reference "R431")
 					(unit 1)
@@ -1279,8 +2381,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 69.85 80.01 180)
+		(lib_id "MPLab:resistor")
+		(at 142.24 99.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1288,10 +2390,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c93adefe-a031-4c2f-b65d-3b9af901d7bf")
-		(property "Reference" "J405"
-			(at 69.85 71.12 0)
+		(uuid "ac2e8ab3-c1bb-4420-a805-942ad4b1deaf")
+		(property "Reference" "R432"
+			(at 142.24 102.108 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1300,8 +2401,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 69.85 73.66 0)
+		(property "Value" "100"
+			(at 142.24 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1310,8 +2411,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 69.85 80.01 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 142.24 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1322,7 +2423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 80.01 0)
+			(at 142.24 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1332,8 +2433,374 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.85 80.01 0)
+		(property "Description" "Resistor, small symbol"
+			(at 142.24 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.063W"
+			(at 140.2842 98.9076 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Package" "0402"
+			(at 140.2842 99.2124 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right top)
+			)
+		)
+		(property "Tolerance" "0.5%"
+			(at 144.1958 99.2124 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 144.1958 98.9076 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "34996e6e-f315-4de3-9a0e-19898ce193db")
+		)
+		(pin "2"
+			(uuid "76d6789d-d975-464e-87cb-02bcc65ef8cf")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
+					(reference "R432")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MPLab:capacitor")
+		(at 148.59 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bec6a7dd-fd1b-4a77-bdc3-fdf3040cea4c")
+		(property "Reference" "C412"
+			(at 150.622 121.158 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "18nF"
+			(at 150.622 120.142 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.59 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 148.59 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "35"
+			(at 148.7424 119.9134 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(face "Consolas")
+					(size 0.635 0.635)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Type" "C0G"
+			(at 148.4376 121.3866 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(property "Package" "0603"
+			(at 148.7424 121.3866 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 148.4122 119.9134 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(face "Consolas")
+					(size 0.635 0.635)
+				)
+				(justify right top)
+			)
+		)
+		(property "Mfr" "C1608C0G1V183J080AC"
+			(at 148.59 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MfrPN" ""
+			(at 148.59 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9b975b91-637a-404d-8e64-074b0f27a59f")
+		)
+		(pin "1"
+			(uuid "c57b330f-bb21-4edb-89d1-905edb45ec38")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
+					(reference "C412")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 116.84 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6e37a73-73cd-4787-aa21-917e77c31f53")
+		(property "Reference" "J1"
+			(at 116.84 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 116.84 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 116.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 116.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "d348ffc5-6354-4bb7-ade2-cabf60de8b5c")
+		)
+		(pin "3"
+			(uuid "5edc637d-ac44-4ab3-a2a7-fca9b11aa616")
+		)
+		(pin "2"
+			(uuid "f74c6169-f459-4eaf-a8b3-41d5100a981e")
+		)
+		(pin "6"
+			(uuid "58498fe0-3346-4e1c-8e37-451a68f19b6e")
+		)
+		(pin "5"
+			(uuid "53dc5233-cb28-478f-90b3-005ec814fc85")
+		)
+		(pin "1"
+			(uuid "28cde6e3-820f-4f53-9725-27645c25a823")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 226.06 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de29800e-c4ec-4e2e-8700-50c9c020a8fb")
+		(property "Reference" "TP417"
+			(at 229.362 96.393 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 229.362 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 226.06 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1344,23 +2811,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "2aea9494-c78f-4771-8079-43185f19d1aa")
-		)
-		(pin "2"
-			(uuid "2d5565d3-fb37-45b3-aa3b-01d863bd408f")
+			(uuid "c63c4554-4304-4220-89dd-05b1a8fbd00a")
 		)
 		(instances
 			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/574d5b7e-4517-4e2c-a65d-89d7e124f3ee"
-					(reference "J406")
-					(unit 1)
-				)
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/cbdece9b-8b45-4b34-a432-4762692769f4"
-					(reference "J407")
-					(unit 1)
-				)
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
-					(reference "J405")
+					(reference "TP417")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 226.06 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5fdc976-8f0f-435d-82e9-a6cb69dfea35")
+		(property "Reference" "TP416"
+			(at 229.362 91.313 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 229.362 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 226.06 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 226.06 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a4a93ce-ba11-41a0-871e-c25eefc0a3d1")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
+					(reference "TP416")
 					(unit 1)
 				)
 			)
@@ -1368,7 +2901,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 74.93 80.01 0)
+		(at 121.92 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1378,7 +2911,7 @@
 		(dnp no)
 		(uuid "ec9c8c9a-55ce-4936-8075-130db45a4abe")
 		(property "Reference" "#PWR0449"
-			(at 74.93 86.36 0)
+			(at 128.27 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1389,7 +2922,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.026 81.788 0)
+			(at 127 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1399,7 +2932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 80.01 0)
+			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1410,7 +2943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 80.01 0)
+			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1421,7 +2954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 74.93 80.01 0)
+			(at 121.92 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1436,14 +2969,6 @@
 		)
 		(instances
 			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/574d5b7e-4517-4e2c-a65d-89d7e124f3ee"
-					(reference "#PWR0451")
-					(unit 1)
-				)
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/cbdece9b-8b45-4b34-a432-4762692769f4"
-					(reference "#PWR0453")
-					(unit 1)
-				)
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/e897aed2-7ecc-43a4-9f04-6cf7864c3922"
 					(reference "#PWR0449")
 					(unit 1)

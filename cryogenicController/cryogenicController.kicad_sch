@@ -6,14 +6,1260 @@
 	(paper "A")
 	(title_block
 		(date "2026-10-24")
-		(rev "xx")
-		(comment 1 "Shining Wang")
-		(comment 2 "In progress")
+		(rev "1")
+		(comment 1 "Shining Wang and Edwin Rolon")
+		(comment 2 "In Review")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CryoController:VDDIO"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDDIO"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDIO\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDDIO_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDIO_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND1"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDD"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDDA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDDA"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDA\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDDA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 88.392 149.86)
+		(end 189.23 171.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d971dff6-0b81-4f68-a281-26168e0d4936")
+	)
+	(text "Main Side"
+		(exclude_from_sim no)
+		(at 114.808 46.736 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "2131fbdf-08bd-41b4-a286-3476a6414fbe")
+	)
+	(text "Power Rail Test Points"
+		(exclude_from_sim no)
+		(at 138.811 154.178 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "2e919e99-88bd-4bb0-bb6a-81c63b98d455")
+	)
+	(text "Isolated Side"
+		(exclude_from_sim no)
+		(at 165.1 47.244 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "e935926a-c3ad-4e2c-a04c-9dc4d15a2fa2")
+	)
 	(wire
 		(pts
-			(xy 123.19 115.57) (xy 128.27 115.57)
+			(xy 161.29 85.09) (xy 164.846 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d1a67b-ccdd-49c2-ae20-ae51366f2c12")
+	)
+	(wire
+		(pts
+			(xy 164.846 119.38) (xy 161.29 119.38)
 		)
 		(stroke
 			(width 0)
@@ -23,7 +1269,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 133.35) (xy 166.37 133.35)
+			(xy 114.046 83.82) (xy 119.126 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157a397b-e008-4b3e-98bc-71029595d5a4")
+	)
+	(wire
+		(pts
+			(xy 119.126 137.16) (xy 113.792 137.16)
 		)
 		(stroke
 			(width 0)
@@ -33,37 +1289,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 54.61) (xy 137.16 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1de925b8-89de-412f-b5c7-8e20cf027527")
-	)
-	(wire
-		(pts
-			(xy 139.7 73.66) (xy 139.7 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23542c38-b78e-46cc-83c0-745caee038a9")
-	)
-	(wire
-		(pts
-			(xy 165.1 76.2) (xy 165.1 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "254f7b91-39e1-4976-bc8c-3508fab0d283")
-	)
-	(wire
-		(pts
-			(xy 161.29 107.95) (xy 166.37 107.95)
+			(xy 119.126 111.76) (xy 113.792 111.76)
 		)
 		(stroke
 			(width 0)
@@ -73,7 +1299,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 105.41) (xy 166.37 105.41)
+			(xy 119.126 109.22) (xy 113.792 109.22)
 		)
 		(stroke
 			(width 0)
@@ -83,17 +1309,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 73.66) (xy 137.16 54.61)
+			(xy 114.046 87.63) (xy 119.126 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37c6e394-8854-4ea1-91de-ed1992d3f7e6")
+		(uuid "367cd970-bcc4-41cc-8cd8-6c97b384f006")
 	)
 	(wire
 		(pts
-			(xy 161.29 125.73) (xy 166.37 125.73)
+			(xy 119.126 129.54) (xy 113.792 129.54)
 		)
 		(stroke
 			(width 0)
@@ -103,17 +1329,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 167.64 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55be6dd6-0f4d-4b86-ba9e-0043e5903abc")
-	)
-	(wire
-		(pts
-			(xy 161.29 123.19) (xy 166.37 123.19)
+			(xy 119.126 127) (xy 113.792 127)
 		)
 		(stroke
 			(width 0)
@@ -123,17 +1339,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 76.2) (xy 165.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f9de3f0-a0b8-491f-a543-e882e8941eda")
-	)
-	(wire
-		(pts
-			(xy 123.19 138.43) (xy 128.27 138.43)
+			(xy 164.846 142.24) (xy 161.29 142.24)
 		)
 		(stroke
 			(width 0)
@@ -143,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 125.73) (xy 128.27 125.73)
+			(xy 164.846 129.54) (xy 161.29 129.54)
 		)
 		(stroke
 			(width 0)
@@ -153,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 128.27 107.95)
+			(xy 164.846 111.76) (xy 161.29 111.76)
 		)
 		(stroke
 			(width 0)
@@ -163,7 +1369,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 135.89) (xy 128.27 135.89)
+			(xy 164.846 139.7) (xy 161.29 139.7)
 		)
 		(stroke
 			(width 0)
@@ -173,7 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 128.27) (xy 166.37 128.27)
+			(xy 119.126 132.08) (xy 113.792 132.08)
 		)
 		(stroke
 			(width 0)
@@ -183,7 +1389,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 113.03) (xy 128.27 113.03)
+			(xy 164.846 116.84) (xy 161.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -193,7 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 133.35) (xy 128.27 133.35)
+			(xy 164.846 137.16) (xy 161.29 137.16)
 		)
 		(stroke
 			(width 0)
@@ -203,27 +1409,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 44.45) (xy 139.7 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87b492e4-de34-41e8-9f1b-879f070cb65f")
-	)
-	(wire
-		(pts
-			(xy 134.62 73.66) (xy 134.62 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a082c5-a6ba-4125-9a14-aaccb9a545cb")
-	)
-	(wire
-		(pts
-			(xy 123.19 118.11) (xy 128.27 118.11)
+			(xy 164.846 121.92) (xy 161.29 121.92)
 		)
 		(stroke
 			(width 0)
@@ -233,7 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 102.87) (xy 128.27 102.87)
+			(xy 164.846 106.68) (xy 161.29 106.68)
 		)
 		(stroke
 			(width 0)
@@ -243,7 +1429,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 128.27) (xy 128.27 128.27)
+			(xy 164.846 132.08) (xy 161.29 132.08)
 		)
 		(stroke
 			(width 0)
@@ -253,17 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 64.77) (xy 113.03 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4062bf6-9660-461e-a6fd-ec933bdeb17f")
-	)
-	(wire
-		(pts
-			(xy 123.19 130.81) (xy 128.27 130.81)
+			(xy 164.846 134.62) (xy 161.29 134.62)
 		)
 		(stroke
 			(width 0)
@@ -273,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 115.57) (xy 166.37 115.57)
+			(xy 119.126 119.38) (xy 113.792 119.38)
 		)
 		(stroke
 			(width 0)
@@ -283,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 120.65) (xy 128.27 120.65)
+			(xy 164.846 124.46) (xy 161.29 124.46)
 		)
 		(stroke
 			(width 0)
@@ -293,17 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 167.64 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c57188e1-c7a4-401d-96b0-e38d5786bfb4")
-	)
-	(wire
-		(pts
-			(xy 123.19 100.33) (xy 128.27 100.33)
+			(xy 164.846 104.14) (xy 161.29 104.14)
 		)
 		(stroke
 			(width 0)
@@ -313,7 +1479,37 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 105.41) (xy 128.27 105.41)
+			(xy 114.046 91.44) (xy 119.126 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77c7120-5ba8-423d-8501-036d47f40719")
+	)
+	(bus
+		(pts
+			(xy 139.7 44.45) (xy 139.7 148.59)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "cd6bb859-444a-4868-8e4d-b98bbcd03c6c")
+	)
+	(wire
+		(pts
+			(xy 164.846 72.39) (xy 161.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d080daed-7278-418c-9e69-472856c70a4b")
+	)
+	(wire
+		(pts
+			(xy 164.846 109.22) (xy 161.29 109.22)
 		)
 		(stroke
 			(width 0)
@@ -323,7 +1519,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 113.03) (xy 166.37 113.03)
+			(xy 161.29 78.74) (xy 164.846 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1386c2e-fd8e-40ed-9885-6fd3a2fa0634")
+	)
+	(wire
+		(pts
+			(xy 119.126 116.84) (xy 113.792 116.84)
 		)
 		(stroke
 			(width 0)
@@ -333,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 120.65) (xy 166.37 120.65)
+			(xy 119.126 124.46) (xy 113.792 124.46)
 		)
 		(stroke
 			(width 0)
@@ -343,7 +1549,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 123.19) (xy 128.27 123.19)
+			(xy 164.846 127) (xy 161.29 127)
 		)
 		(stroke
 			(width 0)
@@ -353,7 +1559,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 110.49) (xy 128.27 110.49)
+			(xy 164.846 114.3) (xy 161.29 114.3)
 		)
 		(stroke
 			(width 0)
@@ -361,19 +1567,1241 @@
 		)
 		(uuid "fb0e5793-31d4-4aaf-82ea-65202f164413")
 	)
-	(wire
-		(pts
-			(xy 165.1 68.58) (xy 167.64 68.58)
+	(symbol
+		(lib_id "CryoController:VDDIO")
+		(at 119.38 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ae9549a-32cb-45a6-8e9e-7b84a267be3d")
+		(property "Reference" "#PWR0615"
+			(at 119.38 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(property "Value" "VDDIO"
+			(at 119.38 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(uuid "fe7a791b-1232-480a-88f6-a29dd2a5acbb")
+		(property "Footprint" ""
+			(at 119.38 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDIO\""
+			(at 119.38 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aabfecbb-04c6-4953-a3ea-45e33c7eb46a")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "#PWR0615")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.68 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "225114a5-2002-493f-82e0-91bc63ea0456")
+		(property "Reference" "TP102"
+			(at 109.982 164.973 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.982 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 106.68 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 106.68 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "300e59d8-c098-4ec2-aab0-2ab0fbef58c4")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "TP102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 170.18 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40326d7c-1069-4d30-9800-c32c61c3798a")
+		(property "Reference" "TP107"
+			(at 173.482 160.147 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.482 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 170.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 170.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce48f2b6-deb2-4ac5-b2d0-c7cb445f305e")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "TP107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5fd9ca53-002b-4452-b4df-b3ace915ea84")
+		(property "Reference" "TP101"
+			(at 97.282 164.973 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 97.282 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 93.98 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0528fa47-98b9-46a8-8434-965103a5716a")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "TP101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "641aab44-3167-4271-aec1-e2617d75715e")
+		(property "Reference" "#PWR0619"
+			(at 170.18 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8f489e9-0efc-42da-a7fa-a4ee224d529d")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "#PWR0619")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 144.78 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e49b602-8b2f-461f-b9a7-a163fdbcc6e7")
+		(property "Reference" "#PWR0617"
+			(at 144.78 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 144.78 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea3820cf-183e-44d5-ab24-f7f7e5ecb662")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "#PWR0617")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 106.68 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "868131cb-6d4b-441c-a527-c2b82770f858")
+		(property "Reference" "#PWR0614"
+			(at 106.68 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 106.68 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 106.68 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe1edecd-fe97-478c-af37-0aafc862cd39")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "#PWR0614")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 132.08 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9574ef90-c0ec-4b7c-842b-88e44c02c20e")
+		(property "Reference" "TP104"
+			(at 135.382 164.973 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 135.382 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2736d56e-55dd-4168-9549-46fe42da0ad4")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "TP104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 157.48 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9782e272-b500-4319-9015-ff122066147d")
+		(property "Reference" "#PWR0618"
+			(at 157.48 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_ISO"
+			(at 157.48 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 157.48 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e6a44d7-3b3e-4c88-825a-9da7c739deeb")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "#PWR0618")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b793ac00-58f8-4beb-aee8-b30fc17330bb")
+		(property "Reference" "TP106"
+			(at 160.782 164.973 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 160.782 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 157.48 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f639185-7ac6-4538-a812-5cdde7a5aa38")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "TP106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8047071-722f-467a-8b7b-c6e1eafb9f8e")
+		(property "Reference" "TP103"
+			(at 122.682 164.973 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 122.682 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 119.38 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9eb0c99-f8d8-4283-b893-86d9f78e66af")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "TP103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 93.98 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0098623-6434-40cb-8675-bc6788aed7a6")
+		(property "Reference" "#PWR0613"
+			(at 93.98 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 93.98 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 93.98 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09032838-03ee-4bec-87e7-34931a8030ac")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "#PWR0613")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 182.88 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1a5ed3d-25a1-4f55-a27a-41ca4226cf3f")
+		(property "Reference" "#PWR0620"
+			(at 182.88 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 182.88 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 182.88 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43ae03b1-06cf-4682-897c-d0db72ff3972")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "#PWR0620")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d51337df-9ffe-4be8-8af9-3cd960e90292")
+		(property "Reference" "TP108"
+			(at 186.182 160.147 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 186.182 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 182.88 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3970d8c3-c7ec-4969-a862-b359ce4d90e2")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "TP108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f65c8c60-2257-40ff-b9b9-cb6ed12ae29e")
+		(property "Reference" "TP105"
+			(at 148.082 164.973 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 148.082 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1aa5bf2-2aff-4063-aa0d-5528369536f9")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "TP105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 132.08 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fadc9536-2094-4c7d-98e1-198fe59222a2")
+		(property "Reference" "#PWR0616"
+			(at 132.08 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 132.08 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17e4f9e5-3e9b-4f51-8ec0-46d9aaddf497")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
+					(reference "#PWR0616")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
-		(at 97.79 97.79)
-		(size 25.4 43.18)
+		(at 164.846 101.6)
+		(size 23.876 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -387,8 +2815,8 @@
 			(color 214 239 255 1)
 		)
 		(uuid "0e12623f-2864-4e60-b7c4-f41456865685")
-		(property "Sheetname" "Isolated_IO"
-			(at 97.79 97.0784 0)
+		(property "Sheetname" "ISOLATED_IO"
+			(at 164.846 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -399,7 +2827,7 @@
 			)
 		)
 		(property "Sheetfile" "Isolated_IO.kicad_sch"
-			(at 97.79 141.5546 0)
+			(at 164.846 145.3646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -410,163 +2838,163 @@
 			)
 		)
 		(pin "PWM5_A" input
-			(at 123.19 120.65 0)
+			(at 164.846 124.46 180)
 			(uuid "c52a37c5-baa0-4caa-a725-35bbfca1e259")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM3_A" input
-			(at 123.19 110.49 0)
+			(at 164.846 114.3 180)
 			(uuid "6c092b20-55ac-4918-9dea-5da68226638f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM6_B" input
-			(at 123.19 128.27 0)
+			(at 164.846 132.08 180)
 			(uuid "745bba95-5a75-4bb8-9c9a-a23d5db8a8f1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM4_A" input
-			(at 123.19 115.57 0)
+			(at 164.846 119.38 180)
 			(uuid "25927c66-8777-4625-b30b-1e4d00c423e5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM1_A" input
-			(at 123.19 100.33 0)
+			(at 164.846 104.14 180)
 			(uuid "7538948c-0071-4f8d-a856-7920feae4373")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM2_A" input
-			(at 123.19 105.41 0)
+			(at 164.846 109.22 180)
 			(uuid "b32ee873-0ce8-48a7-af79-1223185301a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM1_B" input
-			(at 123.19 102.87 0)
+			(at 164.846 106.68 180)
 			(uuid "a8ba1249-b84c-47e8-a98c-f259ca16ed24")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM2_B" input
-			(at 123.19 107.95 0)
+			(at 164.846 111.76 180)
 			(uuid "b3c6ea63-1d20-4a6f-9392-0d9c144f7ad0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM3_B" input
-			(at 123.19 113.03 0)
+			(at 164.846 116.84 180)
 			(uuid "0bb1b1bd-c457-474e-8b59-5453094e5e9a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM4_B" input
-			(at 123.19 118.11 0)
+			(at 164.846 121.92 180)
 			(uuid "de9f4c90-344d-4c33-99c1-fdec06982c9d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM5_B" input
-			(at 123.19 123.19 0)
+			(at 164.846 127 180)
 			(uuid "93e006c9-1c50-4660-8589-ba221ec86768")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM6_A" input
-			(at 123.19 125.73 0)
+			(at 164.846 129.54 180)
 			(uuid "872af32d-074b-4e10-8c6d-d70f0df48f91")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM7_A" input
-			(at 123.19 130.81 0)
+			(at 164.846 134.62 180)
 			(uuid "33bd5ac5-88f7-4b9d-8c1a-e74fb5c23562")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM7_B" input
-			(at 123.19 133.35 0)
+			(at 164.846 137.16 180)
 			(uuid "21ebc9fc-c41b-4bbf-b7a0-96164978d287")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM8_B" input
-			(at 123.19 138.43 0)
+			(at 164.846 142.24 180)
 			(uuid "54dcddc2-0249-4364-82b7-33591f11b695")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM8_A" input
-			(at 123.19 135.89 0)
+			(at 164.846 139.7 180)
 			(uuid "be1edd50-eaf3-4ea2-bd0a-63882978c653")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -578,8 +3006,8 @@
 		)
 	)
 	(sheet
-		(at 167.64 88.265)
-		(size 25.4 3.81)
+		(at 164.846 57.15)
+		(size 24.13 38.354)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -590,11 +3018,11 @@
 			(type solid)
 		)
 		(fill
-			(color 245 245 245 1)
+			(color 214 239 255 1)
 		)
 		(uuid "3d3daf9c-67ec-4417-afcc-3d3ff5cecd05")
-		(property "Sheetname" "Analog"
-			(at 167.64 87.5534 0)
+		(property "Sheetname" "ISOLATED_ANALOG_INPUT"
+			(at 164.846 56.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -605,7 +3033,7 @@
 			)
 		)
 		(property "Sheetfile" "Analog.kicad_sch"
-			(at 167.64 92.6596 0)
+			(at 164.846 96.0886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -615,9 +3043,29 @@
 				(justify left top)
 			)
 		)
-		(pin "ANALOG_PULSE" output
-			(at 167.64 90.17 180)
-			(uuid "6391afdf-bd8d-4c17-8179-b4387a1637dc")
+		(pin "ANALOG_PULSE1" output
+			(at 164.846 72.39 180)
+			(uuid "db1f789c-8b5d-4446-87f7-128d068e25cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ANALOG_PULSE2" output
+			(at 164.846 78.74 180)
+			(uuid "f65f069f-f04e-4708-b5f3-cd0a865008bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ANALOG_PULSE3" output
+			(at 164.846 85.09 180)
+			(uuid "74256326-53a6-4a35-aaaf-0960312a6564")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -634,8 +3082,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 73.66)
-		(size 33.02 67.31)
+		(at 119.126 57.404)
+		(size 42.164 86.614)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -650,7 +3098,7 @@
 		)
 		(uuid "4d7a613b-5bc2-4eda-bbfe-5504f81f0c12")
 		(property "Sheetname" "MCU"
-			(at 128.27 72.9484 0)
+			(at 119.126 56.6924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -661,7 +3109,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 128.27 141.5546 0)
+			(at 119.126 144.6026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -672,257 +3120,257 @@
 			)
 		)
 		(pin "XRSn" bidirectional
-			(at 161.29 133.35 0)
+			(at 119.126 137.16 180)
 			(uuid "9f384d6b-745d-4cdb-b6f7-a143ed562d64")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SCIA_RX" input
-			(at 161.29 115.57 0)
+			(at 119.126 119.38 180)
 			(uuid "2aa75d7a-7f1e-4ed5-8ebd-513204f5f567")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SCIB_RX" input
-			(at 161.29 107.95 0)
+			(at 119.126 111.76 180)
 			(uuid "ee1f74b2-f25a-40cf-9c02-f346ecaa1f06")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SCIB_TX" output
-			(at 161.29 105.41 0)
+			(at 119.126 109.22 180)
 			(uuid "12ba5f22-df4b-4a74-b130-d7d192340f7f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SCIA_TX" output
-			(at 161.29 113.03 0)
+			(at 119.126 116.84 180)
 			(uuid "479ab003-4ada-4292-820e-78c369e724fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "TCK" input
-			(at 161.29 123.19 0)
+			(at 119.126 127 180)
 			(uuid "1d148dc4-9576-42e5-a345-c626888aa809")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "TDI" input
-			(at 161.29 125.73 0)
+			(at 119.126 129.54 180)
 			(uuid "63f9a077-eacd-4388-af2e-b2cbf51e9abb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "TMS" bidirectional
-			(at 161.29 128.27 0)
+			(at 119.126 132.08 180)
 			(uuid "a5f7e504-3a20-4d41-b738-29b02efbf3ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "TDO" output
-			(at 161.29 120.65 0)
+			(at 119.126 124.46 180)
 			(uuid "38d147a2-2246-4395-b819-db9162e0fe6c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "PWM8_B" output
-			(at 128.27 138.43 180)
+			(at 161.29 142.24 0)
 			(uuid "6212ef0c-650c-4332-b158-c7cd8e48125a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM6_B" output
-			(at 128.27 128.27 180)
+			(at 161.29 132.08 0)
 			(uuid "91f1f283-b321-4a87-bb7e-3fe69fe26dc8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM7_A" output
-			(at 128.27 130.81 180)
+			(at 161.29 134.62 0)
 			(uuid "ca864ea2-ca52-4f14-b355-a5cc47827a1c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM8_A" output
-			(at 128.27 135.89 180)
+			(at 161.29 139.7 0)
 			(uuid "3fe03e33-4194-4f19-a744-a0ee327ae79a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM2_B" output
-			(at 128.27 107.95 180)
+			(at 161.29 111.76 0)
 			(uuid "3dff818e-df78-48d4-b646-1f567f3de9bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM4_B" output
-			(at 128.27 118.11 180)
+			(at 161.29 121.92 0)
 			(uuid "b8fc1609-e5fb-4e0f-ae8d-3989430bff63")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM3_B" output
-			(at 128.27 113.03 180)
+			(at 161.29 116.84 0)
 			(uuid "d3385b37-fd00-458f-9c99-4ab7be51f98a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM3_A" output
-			(at 128.27 110.49 180)
+			(at 161.29 114.3 0)
 			(uuid "5e41a31d-bdb0-4887-8582-0d9e97e34a2b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM5_B" output
-			(at 128.27 123.19 180)
+			(at 161.29 127 0)
 			(uuid "b3e1d9aa-7b90-402e-aad6-aa828ffae902")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM6_A" output
-			(at 128.27 125.73 180)
+			(at 161.29 129.54 0)
 			(uuid "9c674c5a-7690-43bb-b72f-e9001da28346")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM5_A" output
-			(at 128.27 120.65 180)
+			(at 161.29 124.46 0)
 			(uuid "aa9db8a7-6a9a-42d8-ad44-fb6e0a884018")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM4_A" output
-			(at 128.27 115.57 180)
+			(at 161.29 119.38 0)
 			(uuid "2096d21c-7c90-4fb0-a76f-5e68bf57e6a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM2_A" output
-			(at 128.27 105.41 180)
+			(at 161.29 109.22 0)
 			(uuid "4df5e0b4-0ae2-4609-9146-347f5a631267")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM1_A" output
-			(at 128.27 100.33 180)
+			(at 161.29 104.14 0)
 			(uuid "d3c5b3a1-c1ef-4d7d-834b-cf15316a696e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM1_B" output
-			(at 128.27 102.87 180)
+			(at 161.29 106.68 0)
 			(uuid "06f21df5-2c98-43aa-af40-f2737f19aacd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PWM7_B" output
-			(at 128.27 133.35 180)
+			(at 161.29 137.16 0)
 			(uuid "f476b353-9a00-41d1-8b00-3b8ec480139e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "ANALOG_PULSE" input
-			(at 161.29 90.17 0)
+		(pin "ANALOG_PULSE1" input
+			(at 161.29 72.39 0)
 			(uuid "646f318e-296a-47d3-9007-269b567760f2")
 			(effects
 				(font
@@ -932,7 +3380,7 @@
 			)
 		)
 		(pin "ANALOG_PULSE2" input
-			(at 161.29 81.28 0)
+			(at 161.29 85.09 0)
 			(uuid "f4df4852-3be8-4289-847e-076350e934da")
 			(effects
 				(font
@@ -942,7 +3390,7 @@
 			)
 		)
 		(pin "ANALOG_PULSE3" input
-			(at 161.29 76.2 0)
+			(at 161.29 78.74 0)
 			(uuid "48b9bd68-8c0c-4ddf-a8a0-71c17f892785")
 			(effects
 				(font
@@ -952,33 +3400,33 @@
 			)
 		)
 		(pin "ANALOG_MAIN1" input
-			(at 134.62 73.66 90)
+			(at 119.126 83.82 180)
 			(uuid "44d6fd7a-0e6c-409a-9e4e-59a639bba7a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "ANALOG_MAIN2" input
-			(at 137.16 73.66 90)
+			(at 119.126 87.63 180)
 			(uuid "8957653e-6a4a-44eb-b5a4-5d4cf908a67e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "ANALOG_MAIN3" input
-			(at 139.7 73.66 90)
+			(at 119.126 91.44 180)
 			(uuid "ab8c1626-1025-43cc-ae3d-465eb1ef0e65")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -990,7 +3438,7 @@
 		)
 	)
 	(sheet
-		(at 166.37 97.79)
+		(at 88.392 101.6)
 		(size 25.4 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1006,7 +3454,7 @@
 		)
 		(uuid "5228ad07-d553-4a56-ba6e-a56ecb5b2d4c")
 		(property "Sheetname" "JTAG_UART"
-			(at 166.37 97.0784 0)
+			(at 88.392 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1017,7 +3465,7 @@
 			)
 		)
 		(property "Sheetfile" "Debug_Comms.kicad_sch"
-			(at 166.37 141.5546 0)
+			(at 88.392 145.3646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1028,93 +3476,93 @@
 			)
 		)
 		(pin "SCIA_RX" output
-			(at 166.37 115.57 180)
+			(at 113.792 119.38 0)
 			(uuid "4712fc14-7ce2-4d1d-8aae-77fae11a3a4b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SCIA_TX" input
-			(at 166.37 113.03 180)
+			(at 113.792 116.84 0)
 			(uuid "f47c4bf6-91a2-4a4b-be99-d5de4e83fef6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SCIB_RX" output
-			(at 166.37 107.95 180)
+			(at 113.792 111.76 0)
 			(uuid "42b6a2ac-0a78-4568-aaf1-a34349355d44")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SCIB_TX" input
-			(at 166.37 105.41 180)
+			(at 113.792 109.22 0)
 			(uuid "ab6f7292-ca05-4d52-a2e0-e0caea4c90fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "XRSn" bidirectional
-			(at 166.37 133.35 180)
+			(at 113.792 137.16 0)
 			(uuid "ca0225e6-1c0f-4c67-9ac1-a55be44f71e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "TDO" input
-			(at 166.37 120.65 180)
+			(at 113.792 124.46 0)
 			(uuid "f364505c-b3b4-49ba-b06f-594ba2777ab2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "TCK" output
-			(at 166.37 123.19 180)
+			(at 113.792 127 0)
 			(uuid "373d0652-48ca-4aa8-a108-66b61680cfa0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "TDI" output
-			(at 166.37 125.73 180)
+			(at 113.792 129.54 0)
 			(uuid "45365646-b3bb-46ca-bb03-fbcc7001b148")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "TMS" bidirectional
-			(at 166.37 128.27 180)
+			(at 113.792 132.08 0)
 			(uuid "1c1adabf-39f8-40c5-afe7-93a3996158ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -1126,63 +3574,7 @@
 		)
 	)
 	(sheet
-		(at 97.155 52.705)
-		(size 15.875 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "574d5b7e-4517-4e2c-a65d-89d7e124f3ee")
-		(property "Sheetname" "Analog_Board1"
-			(at 97.155 51.9934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Analog_Board.kicad_sch"
-			(at 97.155 57.0996 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ANALOG_MAIN" output
-			(at 113.03 54.61 0)
-			(uuid "9ef42376-2a47-46de-91ac-f1df4cbda006")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 97.79 73.66)
+		(at 88.646 57.404)
 		(size 25.4 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1194,11 +3586,11 @@
 			(type solid)
 		)
 		(fill
-			(color 223 255 214 1)
+			(color 255 221 221 1)
 		)
 		(uuid "b717e6c9-28c7-4063-a514-cca3912cb03a")
-		(property "Sheetname" "power"
-			(at 97.79 72.9484 0)
+		(property "Sheetname" "POWER"
+			(at 88.646 56.6924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1209,7 +3601,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 97.79 92.0246 0)
+			(at 88.646 75.7686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1228,8 +3620,8 @@
 		)
 	)
 	(sheet
-		(at 97.155 42.545)
-		(size 15.875 3.81)
+		(at 88.9 81.026)
+		(size 25.146 13.462)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1240,11 +3632,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 221 221 1)
 		)
-		(uuid "cbdece9b-8b45-4b34-a432-4762692769f4")
-		(property "Sheetname" "Analog_Board2"
-			(at 97.155 41.8334 0)
+		(uuid "e897aed2-7ecc-43a4-9f04-6cf7864c3922")
+		(property "Sheetname" "MAIN_ANALOG"
+			(at 88.9 80.3144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1255,7 +3647,7 @@
 			)
 		)
 		(property "Sheetfile" "Analog_Board.kicad_sch"
-			(at 97.155 46.9396 0)
+			(at 88.9 95.0726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1265,9 +3657,9 @@
 				(justify left top)
 			)
 		)
-		(pin "ANALOG_MAIN" output
-			(at 113.03 44.45 0)
-			(uuid "c4c33a3d-ab98-4ec5-8736-a887f42b728d")
+		(pin "ANALOG_MAIN1" output
+			(at 114.046 83.82 0)
+			(uuid "849c9629-9c4c-44e0-ab09-33825723ed06")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,55 +3667,19 @@
 				(justify right)
 			)
 		)
-		(instances
-			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 97.155 62.865)
-		(size 15.875 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "e897aed2-7ecc-43a4-9f04-6cf7864c3922")
-		(property "Sheetname" "Analog_Board"
-			(at 97.155 62.1534 0)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "ANALOG_MAIN2" output
+			(at 114.046 87.63 0)
+			(uuid "8d658c4d-e662-49ec-b711-b72ac6c7193f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
-		(property "Sheetfile" "Analog_Board.kicad_sch"
-			(at 97.155 67.2596 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ANALOG_MAIN" output
-			(at 113.03 64.77 0)
-			(uuid "1cadf359-8cf3-42b5-877e-b038d171cf80")
+		(pin "ANALOG_MAIN3" output
+			(at 114.046 91.44 0)
+			(uuid "4035713f-e0d4-4c30-8f1e-155b9a276563")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,118 +3691,6 @@
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
 					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 167.64 66.167)
-		(size 25.4 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 245 245 245 1)
-		)
-		(uuid "ee5533e0-fcc9-413d-a8be-d654e34bd221")
-		(property "Sheetname" "Analog2"
-			(at 167.64 65.4554 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Analog.kicad_sch"
-			(at 167.64 71.8316 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ANALOG_PULSE" output
-			(at 167.64 68.58 180)
-			(uuid "0634a1c5-74f5-41af-9860-47b4d17bfec2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 167.64 78.74)
-		(size 25.4 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 245 245 245 1)
-		)
-		(uuid "fbe03df1-8a01-4a50-85fc-07ab986c5f28")
-		(property "Sheetname" "Analog1"
-			(at 167.64 78.0284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Analog.kicad_sch"
-			(at 167.64 84.4046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ANALOG_PULSE" output
-			(at 167.64 81.28 180)
-			(uuid "62066822-d601-4bc2-b15e-50dfc4864906")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b"
-					(page "7")
 				)
 			)
 		)

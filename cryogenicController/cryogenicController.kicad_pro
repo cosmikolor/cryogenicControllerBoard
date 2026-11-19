@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.0,
-          "min_island_area": 10.0,
+          "min_island_area": 9.9999993548,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -257,7 +257,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "xx"
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -628,13 +628,85 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MfrPN",
+          "name": "MfrPN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mfr",
+          "name": "Mfr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -687,7 +759,7 @@
         "uuid": "cbeeb003-c3fe-4807-ac54-05dbc29d640b"
       }
     ],
-    "used_designators": "U1-6,U404-407,C1-45,C403-412,#PWR1-50,#PWR402-403,#PWR414-454,SW1,R1-25,R408-433,J1-6,J403-407,Y1,Q1",
+    "used_designators": "U1-6,U202,U404-407,C1-45,C220-238,C403-412,C518,#PWR1-50,#PWR211-218,#PWR402-403,#PWR414-456,#PWR509-511,SW1,SW501,J1-6,J403-407,R1-25,R408-433,R506,Q1,Y1,TP1",
     "variants": []
   },
   "sheets": [
@@ -697,15 +769,15 @@
     ],
     [
       "b717e6c9-28c7-4063-a514-cca3912cb03a",
-      "power"
+      "POWER"
     ],
     [
       "0e12623f-2864-4e60-b7c4-f41456865685",
-      "Isolated_IO"
+      "ISOLATED_IO"
     ],
     [
       "3d3daf9c-67ec-4417-afcc-3d3ff5cecd05",
-      "Analog"
+      "ISOLATED_ANALOG_INPUT"
     ],
     [
       "4d7a613b-5bc2-4eda-bbfe-5504f81f0c12",
@@ -716,24 +788,8 @@
       "JTAG_UART"
     ],
     [
-      "fbe03df1-8a01-4a50-85fc-07ab986c5f28",
-      "Analog1"
-    ],
-    [
-      "ee5533e0-fcc9-413d-a8be-d654e34bd221",
-      "Analog2"
-    ],
-    [
       "e897aed2-7ecc-43a4-9f04-6cf7864c3922",
-      "Analog_Board"
-    ],
-    [
-      "574d5b7e-4517-4e2c-a65d-89d7e124f3ee",
-      "Analog_Board1"
-    ],
-    [
-      "cbdece9b-8b45-4b34-a432-4762692769f4",
-      "Analog_Board2"
+      "MAIN_ANALOG"
     ]
   ],
   "text_variables": {},

@@ -6,9 +6,9 @@
 	(paper "A")
 	(title_block
 		(date "2026-10-24")
-		(rev "xx")
-		(comment 1 "Shining Wang")
-		(comment 2 "In progress")
+		(rev "1")
+		(comment 1 "Shining Wang and Edwin Rolon")
+		(comment 2 "In Review")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
@@ -223,6 +223,129 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1179,9 +1302,69 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 73.406 74.422)
+		(end 139.954 135.382)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "170a0829-1ea0-4e8c-baf5-db068d89e533")
+	)
+	(rectangle
+		(start 142.24 74.422)
+		(end 208.788 135.382)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8700be5e-a0ec-4dd2-80bc-680be8fbc5c7")
+	)
+	(rectangle
+		(start 73.406 137.16)
+		(end 208.788 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dda72132-561a-48ef-b38e-df2b7f98d458")
+	)
+	(text "JTAG Header\n"
+		(exclude_from_sim no)
+		(at 106.68 78.994 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "06481750-cb0f-4577-b17b-00a1cc4aa52e")
+	)
+	(text "UART Connector"
+		(exclude_from_sim no)
+		(at 175.514 78.486 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "0b2ace33-8201-4c90-bf11-76cba00319a2")
+	)
 	(text "1 - TX\n2 - RX\n3 - GND"
 		(exclude_from_sim no)
-		(at 168.402 91.694 0)
+		(at 151.892 95.504 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1189,19 +1372,9 @@
 		)
 		(uuid "0e546f8c-a9ba-4d5d-9762-ee983752f2fd")
 	)
-	(text "UART Connector"
-		(exclude_from_sim no)
-		(at 189.992 78.232 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "28edb28c-448d-4b80-90eb-340fbb694380")
-	)
 	(text "Cryo UART is wired separately from JTAG UART\njust in case both are plugged in at the same time"
 		(exclude_from_sim no)
-		(at 193.04 124.714 0)
+		(at 176.53 128.524 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1209,19 +1382,9 @@
 		)
 		(uuid "30f4fd2c-3ade-466e-9362-6a9fd8d9c57f")
 	)
-	(text "JTAG Header"
-		(exclude_from_sim no)
-		(at 74.93 80.518 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "35ac2724-6156-4c61-ac0a-927279ed1a74")
-	)
 	(text "Jumpers if we want to\nswap in a resistor in\ncase of backfeeding"
 		(exclude_from_sim no)
-		(at 211.074 95.504 0)
+		(at 194.564 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1229,9 +1392,21 @@
 		)
 		(uuid "73015bf4-00ad-46e7-aca5-bcc038f77bf4")
 	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 141.097 141.478 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "8aab0f5a-012d-4395-a104-3edb8c0f0d25")
+	)
 	(text "UART Idles on high,\npull up to VDDIO\nwhen not in use"
 		(exclude_from_sim no)
-		(at 211.582 109.22 0)
+		(at 195.072 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1241,7 +1416,7 @@
 	)
 	(text "Programming chip drives\nSCIA_RX high while JTAG\nis connected, so no\npull-up to VDDIO needed"
 		(exclude_from_sim no)
-		(at 123.19 111.506 0)
+		(at 125.73 87.376 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1250,52 +1425,52 @@
 		(uuid "e0dfa9c5-be08-4d20-9fa5-eae1e223fe1e")
 	)
 	(junction
-		(at 64.77 105.41)
+		(at 82.55 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1be037cf-2066-452a-a46e-16a7e90a0181")
 	)
 	(junction
-		(at 190.5 101.6)
+		(at 173.99 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ddd397f-076a-4af8-89a6-e0e171e37fe4")
 	)
 	(junction
-		(at 64.77 107.95)
+		(at 82.55 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dc514d4-cbe4-4118-9e9f-55528b8443ef")
 	)
 	(junction
-		(at 64.77 102.87)
+		(at 82.55 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95e091c0-79c4-4aaa-8b40-9ceba7ef55d0")
 	)
 	(junction
-		(at 64.77 97.79)
+		(at 82.55 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a967a16e-98c5-420d-91c5-d88166b94580")
 	)
 	(junction
-		(at 90.17 92.71)
+		(at 107.95 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebafdadf-98b0-439a-a1d0-0b2e714e7c78")
 	)
 	(no_connect
-		(at 68.58 92.71)
+		(at 86.36 100.33)
 		(uuid "94088bcf-1b87-4225-bef3-d5caa1f833d9")
 	)
 	(no_connect
-		(at 68.58 100.33)
+		(at 86.36 107.95)
 		(uuid "c2b42ffb-4486-4eac-8c01-801b7514717f")
 	)
 	(wire
 		(pts
-			(xy 179.07 88.9) (xy 187.96 88.9)
+			(xy 162.56 92.71) (xy 171.45 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1305,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 97.79) (xy 85.09 97.79)
+			(xy 99.06 105.41) (xy 102.87 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +1490,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 102.87) (xy 92.71 102.87)
+			(xy 99.06 110.49) (xy 110.49 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1325,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 110.49) (xy 88.9 110.49)
+			(xy 104.14 118.11) (xy 106.68 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1335,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 119.38) (xy 83.82 107.95)
+			(xy 101.6 127) (xy 101.6 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 119.38) (xy 88.9 119.38)
+			(xy 101.6 127) (xy 106.68 127)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 93.98) (xy 179.07 93.98)
+			(xy 166.37 97.79) (xy 162.56 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1365,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 100.33) (xy 85.09 100.33)
+			(xy 99.06 107.95) (xy 102.87 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1375,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 110.49) (xy 86.36 105.41)
+			(xy 104.14 118.11) (xy 104.14 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 92.71) (xy 96.52 92.71)
+			(xy 107.95 100.33) (xy 114.3 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1395,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 102.87) (xy 104.14 102.87)
+			(xy 115.57 110.49) (xy 121.92 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1405,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 95.25) (xy 182.88 93.98)
+			(xy 166.37 99.06) (xy 166.37 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1415,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 105.41) (xy 64.77 107.95)
+			(xy 82.55 113.03) (xy 82.55 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1425,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 97.79) (xy 64.77 102.87)
+			(xy 82.55 105.41) (xy 82.55 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +1610,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 102.87) (xy 68.58 102.87)
+			(xy 82.55 110.49) (xy 86.36 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1445,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 105.41) (xy 68.58 105.41)
+			(xy 82.55 113.03) (xy 86.36 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1455,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 95.25) (xy 64.77 95.25)
+			(xy 86.36 102.87) (xy 82.55 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 107.95) (xy 64.77 111.76)
+			(xy 82.55 115.57) (xy 82.55 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1475,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 115.57) (xy 190.5 111.76)
+			(xy 173.99 120.65) (xy 173.99 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1485,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 97.79) (xy 68.58 97.79)
+			(xy 82.55 105.41) (xy 86.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1495,17 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 115.57) (xy 190.5 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97e44e40-a87c-45fe-87ef-6e3308d96c48")
-	)
-	(wire
-		(pts
-			(xy 81.28 92.71) (xy 90.17 92.71)
+			(xy 99.06 100.33) (xy 107.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1515,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 90.17) (xy 90.17 92.71)
+			(xy 107.95 97.79) (xy 107.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 119.38) (xy 97.79 119.38)
+			(xy 111.76 127) (xy 115.57 127)
 		)
 		(stroke
 			(width 0)
@@ -1535,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 97.79) (xy 190.5 106.68)
+			(xy 173.99 101.6) (xy 173.99 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1545,7 +1710,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 92.71) (xy 190.5 91.44)
+			(xy 173.99 96.52) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1555,7 +1720,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 107.95) (xy 81.28 107.95)
+			(xy 101.6 115.57) (xy 99.06 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1565,7 +1730,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 82.55) (xy 90.17 85.09)
+			(xy 107.95 90.17) (xy 107.95 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1575,7 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 95.25) (xy 64.77 97.79)
+			(xy 82.55 102.87) (xy 82.55 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 107.95) (xy 68.58 107.95)
+			(xy 82.55 115.57) (xy 86.36 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1595,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 110.49) (xy 97.79 110.49)
+			(xy 111.76 118.11) (xy 115.57 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1605,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 102.87) (xy 64.77 105.41)
+			(xy 82.55 110.49) (xy 82.55 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1615,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 91.44) (xy 179.07 91.44)
+			(xy 173.99 95.25) (xy 162.56 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1790,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 95.25) (xy 85.09 95.25)
+			(xy 99.06 102.87) (xy 102.87 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1635,7 +1800,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 207.01 101.6)
+			(xy 173.99 105.41) (xy 195.58 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1645,7 +1810,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 88.9) (xy 210.82 88.9)
+			(xy 176.53 92.71) (xy 194.31 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1655,7 +1820,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 105.41) (xy 81.28 105.41)
+			(xy 104.14 113.03) (xy 99.06 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1665,7 +1830,7 @@
 	)
 	(hierarchical_label "TDI"
 		(shape output)
-		(at 85.09 100.33 0)
+		(at 102.87 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1674,9 +1839,31 @@
 		)
 		(uuid "010afec9-9408-41fd-8de3-da8cf275d2b3")
 	)
+	(hierarchical_label "SCIA_RX"
+		(shape output)
+		(at 158.75 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "079cb359-de3b-4b23-bc00-afb5ad0921f6")
+	)
+	(hierarchical_label "TCK"
+		(shape output)
+		(at 125.73 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14e38656-43e1-46b2-9d4d-c426a399265c")
+	)
 	(hierarchical_label "TDO"
 		(shape input)
-		(at 85.09 97.79 0)
+		(at 102.87 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1687,7 +1874,7 @@
 	)
 	(hierarchical_label "SCIB_RX"
 		(shape output)
-		(at 207.01 101.6 0)
+		(at 195.58 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1698,7 +1885,7 @@
 	)
 	(hierarchical_label "XRSn"
 		(shape bidirectional)
-		(at 104.14 102.87 0)
+		(at 121.92 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1709,7 +1896,7 @@
 	)
 	(hierarchical_label "SCIA_TX"
 		(shape input)
-		(at 97.79 119.38 0)
+		(at 115.57 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1718,9 +1905,31 @@
 		)
 		(uuid "6d676cf1-c5b8-4c80-98a5-93232d3ffc5d")
 	)
+	(hierarchical_label "TDO"
+		(shape input)
+		(at 92.71 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71480420-44cb-446a-865b-7f5cc59d4200")
+	)
+	(hierarchical_label "TMS"
+		(shape bidirectional)
+		(at 158.75 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84729a0f-3f9f-4b9c-94c9-fcdc99e47760")
+	)
 	(hierarchical_label "SCIA_RX"
 		(shape output)
-		(at 97.79 110.49 0)
+		(at 115.57 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1731,7 +1940,7 @@
 	)
 	(hierarchical_label "SCIB_TX"
 		(shape input)
-		(at 210.82 88.9 0)
+		(at 194.31 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1742,7 +1951,7 @@
 	)
 	(hierarchical_label "TMS"
 		(shape bidirectional)
-		(at 96.52 92.71 0)
+		(at 114.3 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1751,9 +1960,31 @@
 		)
 		(uuid "bd5a2232-0964-48a6-bf1b-fd6670cde4a3")
 	)
+	(hierarchical_label "XRSn"
+		(shape bidirectional)
+		(at 92.71 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7c2196e-56b1-491f-b12d-d21cb8a1a3ce")
+	)
+	(hierarchical_label "SCIA_TX"
+		(shape input)
+		(at 125.73 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd2bd387-ddeb-439a-acac-2976da15e769")
+	)
 	(hierarchical_label "TCK"
 		(shape output)
-		(at 85.09 95.25 0)
+		(at 102.87 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1762,9 +1993,97 @@
 		)
 		(uuid "d1f0d2e7-15fd-444f-ae53-7b937f3aa7b0")
 	)
+	(hierarchical_label "TDI"
+		(shape output)
+		(at 191.77 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6b84f83-dce1-4fd2-945d-7c29a2484062")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02b57521-c843-4c9f-9c44-aed3c74381ec")
+		(property "Reference" "TP603"
+			(at 162.052 151.003 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 162.052 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 158.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93c3c182-54cf-40f9-85fa-980463ef2328")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
+					(reference "TP603")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "MPLab:resistor")
-		(at 91.44 119.38 270)
+		(at 109.22 127 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1775,7 +2094,7 @@
 		(fields_autoplaced yes)
 		(uuid "058ea149-af52-4688-a09e-7576d672abd8")
 		(property "Reference" "R603"
-			(at 91.44 114.3 90)
+			(at 109.22 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1785,7 +2104,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 91.44 116.84 90)
+			(at 109.22 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1795,7 +2114,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 91.44 119.38 0)
+			(at 109.22 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1806,7 +2125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 119.38 0)
+			(at 109.22 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1817,7 +2136,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 91.44 119.38 0)
+			(at 109.22 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1827,8 +2146,8 @@
 				)
 			)
 		)
-		(property "Power" "xx"
-			(at 89.4842 119.2276 90)
+		(property "Power" "0.063W"
+			(at 107.2642 126.8476 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1839,7 +2158,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 89.4842 119.5324 90)
+			(at 107.2642 127.1524 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1849,8 +2168,8 @@
 				(justify right top)
 			)
 		)
-		(property "Tolerance" "xx"
-			(at 93.3958 119.5324 90)
+		(property "Tolerance" "Jumper"
+			(at 111.1758 127.1524 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1860,8 +2179,8 @@
 				(justify left top)
 			)
 		)
-		(property "Voltage" "xx"
-			(at 93.3958 119.2276 90)
+		(property "Voltage" "50V"
+			(at 111.1758 126.8476 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1888,7 +2207,7 @@
 	)
 	(symbol
 		(lib_id "CryoController:VDDIO")
-		(at 194.31 115.57 270)
+		(at 173.99 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1899,7 +2218,7 @@
 		(fields_autoplaced yes)
 		(uuid "243f24b9-4e37-4e84-ba04-4b06310162ee")
 		(property "Reference" "#PWR0604"
-			(at 190.5 115.57 0)
+			(at 173.99 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1910,18 +2229,18 @@
 			)
 		)
 		(property "Value" "VDDIO"
-			(at 198.12 115.5699 90)
+			(at 176.53 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 115.57 0)
+			(at 173.99 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1932,7 +2251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 115.57 0)
+			(at 173.99 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1943,7 +2262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDIO\""
-			(at 194.31 115.57 0)
+			(at 173.99 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1967,7 +2286,7 @@
 	)
 	(symbol
 		(lib_id "MPLab:resistor")
-		(at 95.25 102.87 270)
+		(at 113.03 110.49 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1978,7 +2297,7 @@
 		(fields_autoplaced yes)
 		(uuid "25c00f7d-f34d-495b-b46d-ec22bfa1ffb9")
 		(property "Reference" "R604"
-			(at 95.25 97.79 90)
+			(at 113.03 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1988,7 +2307,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 95.25 100.33 90)
+			(at 113.03 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1998,7 +2317,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 95.25 102.87 0)
+			(at 113.03 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2009,7 +2328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 102.87 0)
+			(at 113.03 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2020,7 +2339,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 95.25 102.87 0)
+			(at 113.03 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2030,8 +2349,8 @@
 				)
 			)
 		)
-		(property "Power" "xx"
-			(at 93.2942 102.7176 90)
+		(property "Power" "0.063W"
+			(at 111.0742 110.3376 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2042,7 +2361,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 93.2942 103.0224 90)
+			(at 111.0742 110.6424 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2052,8 +2371,8 @@
 				(justify right top)
 			)
 		)
-		(property "Tolerance" "xx"
-			(at 97.2058 103.0224 90)
+		(property "Tolerance" "Jumper"
+			(at 114.9858 110.6424 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2063,8 +2382,8 @@
 				(justify left top)
 			)
 		)
-		(property "Voltage" "xx"
-			(at 97.2058 102.7176 90)
+		(property "Voltage" "50V"
+			(at 114.9858 110.3376 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2090,8 +2409,239 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fda0deb-aeeb-4ca8-b74a-8797bc056af3")
+		(property "Reference" "TP607"
+			(at 162.052 156.083 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 162.052 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 158.75 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c6042b2-8a01-49a0-a6cd-6edc535bbc2c")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
+					(reference "TP607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "39015d9f-716e-4a26-b64e-dc797d5859dd")
+		(property "Reference" "TP606"
+			(at 129.032 156.083 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 129.032 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 125.73 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4709d812-1e40-48f7-89b9-aea756fb0ba7")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
+					(reference "TP606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43ad5952-0eb4-4742-8a7d-2809ec1f73c3")
+		(property "Reference" "TP602"
+			(at 129.032 151.003 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 129.032 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 125.73 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a3bc6ed-46af-4e0f-bfd0-b293bfd37e49")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
+					(reference "TP602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 173.99 91.44 0)
+		(at 157.48 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2102,7 +2652,7 @@
 		(fields_autoplaced yes)
 		(uuid "4df4b935-9d56-49d9-accb-a208ce6fa715")
 		(property "Reference" "J602"
-			(at 174.625 83.82 0)
+			(at 158.115 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2112,7 +2662,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 174.625 86.36 0)
+			(at 158.115 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2122,7 +2672,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 173.99 91.44 0)
+			(at 157.48 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2133,7 +2683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 91.44 0)
+			(at 157.48 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,7 +2694,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 173.99 91.44 0)
+			(at 157.48 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2173,8 +2723,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 92.71 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e864196-6c88-4a32-82ba-c3b7fc2b20e2")
+		(property "Reference" "TP601"
+			(at 96.012 151.003 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 96.012 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 92.71 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 92.71 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "beef9c3d-5fe4-4d88-b9d2-ce9d62cf727c")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
+					(reference "TP601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MPLab:resistor")
-		(at 190.5 88.9 270)
+		(at 173.99 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2185,7 +2812,7 @@
 		(fields_autoplaced yes)
 		(uuid "5106e952-b3f8-4fca-a2b9-4a9d0726b739")
 		(property "Reference" "R605"
-			(at 190.5 83.82 90)
+			(at 173.99 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2195,7 +2822,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 190.5 86.36 90)
+			(at 173.99 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2205,7 +2832,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 190.5 88.9 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,7 +2843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 88.9 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2227,7 +2854,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 190.5 88.9 0)
+			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2237,8 +2864,8 @@
 				)
 			)
 		)
-		(property "Power" "xx"
-			(at 188.5442 88.7476 90)
+		(property "Power" "0.063W"
+			(at 172.0342 92.5576 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2249,7 +2876,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 188.5442 89.0524 90)
+			(at 172.0342 92.8624 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2259,8 +2886,8 @@
 				(justify right top)
 			)
 		)
-		(property "Tolerance" "xx"
-			(at 192.4558 89.0524 90)
+		(property "Tolerance" "Jumper"
+			(at 175.9458 92.8624 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2270,8 +2897,8 @@
 				(justify left top)
 			)
 		)
-		(property "Voltage" "xx"
-			(at 192.4558 88.7476 90)
+		(property "Voltage" "50V"
+			(at 175.9458 92.5576 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2298,7 +2925,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 111.76 0)
+		(at 82.55 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2309,7 +2936,7 @@
 		(fields_autoplaced yes)
 		(uuid "8164cf6c-fe0b-402c-bfa5-099fbef25259")
 		(property "Reference" "#PWR0601"
-			(at 64.77 118.11 0)
+			(at 82.55 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2320,7 +2947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 116.84 0)
+			(at 82.55 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2330,7 +2957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 111.76 0)
+			(at 82.55 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2341,7 +2968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 111.76 0)
+			(at 82.55 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2352,7 +2979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 111.76 0)
+			(at 82.55 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2376,7 +3003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 95.25 0)
+		(at 166.37 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2387,7 +3014,7 @@
 		(fields_autoplaced yes)
 		(uuid "864d8a0e-6b52-4718-a560-ba66c09ea07c")
 		(property "Reference" "#PWR0603"
-			(at 182.88 101.6 0)
+			(at 166.37 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2398,7 +3025,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 100.33 0)
+			(at 166.37 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2408,7 +3035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 95.25 0)
+			(at 166.37 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2419,7 +3046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 95.25 0)
+			(at 166.37 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2430,7 +3057,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 95.25 0)
+			(at 166.37 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2454,7 +3081,7 @@
 	)
 	(symbol
 		(lib_id "MPLab:resistor")
-		(at 91.44 110.49 270)
+		(at 109.22 118.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2465,7 +3092,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b911250-79bf-482c-b873-773d77c4d0bf")
 		(property "Reference" "R602"
-			(at 91.44 105.41 90)
+			(at 109.22 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2475,7 +3102,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 91.44 107.95 90)
+			(at 109.22 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2485,7 +3112,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 91.44 110.49 0)
+			(at 109.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2496,7 +3123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 110.49 0)
+			(at 109.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2507,7 +3134,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 91.44 110.49 0)
+			(at 109.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2517,8 +3144,8 @@
 				)
 			)
 		)
-		(property "Power" "xx"
-			(at 89.4842 110.3376 90)
+		(property "Power" "0.063W"
+			(at 107.2642 117.9576 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2529,7 +3156,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 89.4842 110.6424 90)
+			(at 107.2642 118.2624 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2539,8 +3166,8 @@
 				(justify right top)
 			)
 		)
-		(property "Tolerance" "xx"
-			(at 93.3958 110.6424 90)
+		(property "Tolerance" "Jumper"
+			(at 111.1758 118.2624 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2550,8 +3177,8 @@
 				(justify left top)
 			)
 		)
-		(property "Voltage" "xx"
-			(at 93.3958 110.3376 90)
+		(property "Voltage" "50V"
+			(at 111.1758 117.9576 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2578,7 +3205,7 @@
 	)
 	(symbol
 		(lib_id "CryoController:VDDIO")
-		(at 90.17 82.55 0)
+		(at 107.95 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2589,7 +3216,7 @@
 		(fields_autoplaced yes)
 		(uuid "93ad6361-5482-41c8-aafe-94a34fe434d8")
 		(property "Reference" "#PWR0602"
-			(at 90.17 86.36 0)
+			(at 107.95 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,7 +3227,7 @@
 			)
 		)
 		(property "Value" "VDDIO"
-			(at 90.17 77.47 0)
+			(at 107.95 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2610,7 +3237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 82.55 0)
+			(at 107.95 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2621,7 +3248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 82.55 0)
+			(at 107.95 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2632,7 +3259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDIO\""
-			(at 90.17 82.55 0)
+			(at 107.95 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2655,8 +3282,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 92.71 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e5e41d9-d05d-4c13-babb-3c06aa355c33")
+		(property "Reference" "TP605"
+			(at 96.012 156.083 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 96.012 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 92.71 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 92.71 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3802b98e-66c6-42ac-aaf3-eb2bb383ebc6")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
+					(reference "TP605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MPLab:resistor")
-		(at 190.5 95.25 0)
+		(at 173.99 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2667,7 +3371,7 @@
 		(fields_autoplaced yes)
 		(uuid "a85a446f-e4a8-4231-8145-6ad751fe9497")
 		(property "Reference" "R606"
-			(at 193.04 93.9799 0)
+			(at 176.53 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2678,7 +3382,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 193.04 96.5199 0)
+			(at 176.53 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2689,7 +3393,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 190.5 95.25 0)
+			(at 173.99 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2700,7 +3404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 95.25 0)
+			(at 173.99 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2711,7 +3415,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 190.5 95.25 0)
+			(at 173.99 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2721,8 +3425,8 @@
 				)
 			)
 		)
-		(property "Power" "xx"
-			(at 190.3476 97.2058 90)
+		(property "Power" "0.063W"
+			(at 173.8376 101.0158 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2733,7 +3437,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 190.6524 97.2058 90)
+			(at 174.1424 101.0158 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2743,8 +3447,8 @@
 				(justify right top)
 			)
 		)
-		(property "Tolerance" "xx"
-			(at 190.6524 93.2942 90)
+		(property "Tolerance" "Jumper"
+			(at 174.1424 97.1042 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2754,8 +3458,8 @@
 				(justify left top)
 			)
 		)
-		(property "Voltage" "xx"
-			(at 190.3476 93.2942 90)
+		(property "Voltage" "50V"
+			(at 173.8376 97.1042 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2782,7 +3486,7 @@
 	)
 	(symbol
 		(lib_id "MPLab:resistor")
-		(at 90.17 87.63 180)
+		(at 107.95 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2793,7 +3497,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0bbe254-0f93-41b1-9313-0ce283de63ef")
 		(property "Reference" "R601"
-			(at 92.71 86.3599 0)
+			(at 110.49 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2804,7 +3508,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 92.71 88.8999 0)
+			(at 110.49 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2815,7 +3519,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 90.17 87.63 0)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2826,7 +3530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 87.63 0)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2837,7 +3541,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 90.17 87.63 0)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2847,8 +3551,8 @@
 				)
 			)
 		)
-		(property "Power" "xx"
-			(at 90.3224 85.6742 90)
+		(property "Power" "0.063W"
+			(at 108.1024 93.2942 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2859,7 +3563,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 90.0176 85.6742 90)
+			(at 107.7976 93.2942 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2869,8 +3573,8 @@
 				(justify right top)
 			)
 		)
-		(property "Tolerance" "xx"
-			(at 90.0176 89.5858 90)
+		(property "Tolerance" "0.1%"
+			(at 107.7976 97.2058 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2880,8 +3584,8 @@
 				(justify left top)
 			)
 		)
-		(property "Voltage" "xx"
-			(at 90.3224 89.5858 90)
+		(property "Voltage" "50V"
+			(at 108.1024 97.2058 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2908,7 +3612,7 @@
 	)
 	(symbol
 		(lib_id "MPLab:resistor")
-		(at 190.5 109.22 180)
+		(at 173.99 113.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2919,7 +3623,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1817b16-8a29-4c4e-8dbd-ed80748ab3e5")
 		(property "Reference" "R607"
-			(at 193.04 107.9499 0)
+			(at 176.53 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2930,7 +3634,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 193.04 110.4899 0)
+			(at 176.53 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2941,7 +3645,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 190.5 109.22 0)
+			(at 173.99 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2952,7 +3656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 109.22 0)
+			(at 173.99 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2963,7 +3667,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 190.5 109.22 0)
+			(at 173.99 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2973,8 +3677,8 @@
 				)
 			)
 		)
-		(property "Power" "xx"
-			(at 190.6524 107.2642 90)
+		(property "Power" "0.1W"
+			(at 174.1424 111.0742 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2985,7 +3689,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 190.3476 107.2642 90)
+			(at 173.8376 111.0742 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2995,8 +3699,8 @@
 				(justify right top)
 			)
 		)
-		(property "Tolerance" "xx"
-			(at 190.3476 111.1758 90)
+		(property "Tolerance" "0.5%"
+			(at 173.8376 114.9858 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3006,8 +3710,8 @@
 				(justify left top)
 			)
 		)
-		(property "Voltage" "xx"
-			(at 190.6524 111.1758 90)
+		(property "Voltage" "100V"
+			(at 174.1424 114.9858 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3034,7 +3738,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
-		(at 73.66 100.33 0)
+		(at 91.44 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3045,7 +3749,7 @@
 		(fields_autoplaced yes)
 		(uuid "f202a72d-be72-4a9b-8828-9812d6baa3ca")
 		(property "Reference" "J601"
-			(at 74.93 86.36 0)
+			(at 92.71 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3055,7 +3759,7 @@
 			)
 		)
 		(property "Value" "Conn_02x07_Odd_Even"
-			(at 74.93 88.9 0)
+			(at 92.71 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3065,7 +3769,7 @@
 			)
 		)
 		(property "Footprint" "cryoController:SAMTEC_FTSH-107-01-X-DV-K"
-			(at 73.66 100.33 0)
+			(at 91.44 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3076,7 +3780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 100.33 0)
+			(at 91.44 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3087,7 +3791,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 73.66 100.33 0)
+			(at 91.44 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3098,7 +3802,7 @@
 			)
 		)
 		(property "MfrPN" "FTSH-107-01-F-DV-K"
-			(at 73.66 100.33 0)
+			(at 91.44 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3109,7 +3813,7 @@
 			)
 		)
 		(property "Mfr" "Samtec"
-			(at 73.66 100.33 0)
+			(at 91.44 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3165,6 +3869,83 @@
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
 					(reference "J601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff857668-c467-425d-9f8a-0359136cfe62")
+		(property "Reference" "TP604"
+			(at 195.072 151.003 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 195.072 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "standards:Testpoint_1.0mm"
+			(at 191.77 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b39f3de4-5131-4be4-8b17-b70cc1887a5e")
+		)
+		(instances
+			(project "cryogenicController"
+				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/5228ad07-d553-4a56-ba6e-a56ecb5b2d4c"
+					(reference "TP604")
 					(unit 1)
 				)
 			)
