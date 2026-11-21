@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.3,
-          "width": 2.41
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -213,6 +213,7 @@
         0.0,
         0.15,
         0.25,
+        0.3,
         0.5,
         1.0
       ],
@@ -532,11 +533,11 @@
       },
       {
         "clearance": 0.2,
-        "name": "3.3V",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.3,
         "tuning_profile": ""
       }
     ],
@@ -545,7 +546,36 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDDIO"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDDA"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDD"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "V_ISO"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VREG2"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

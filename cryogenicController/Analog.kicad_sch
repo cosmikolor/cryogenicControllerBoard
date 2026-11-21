@@ -3550,16 +3550,6 @@
 		)
 		(uuid "2fd7dc4f-8867-4665-8656-72ab77404945")
 	)
-	(label "IN2+"
-		(at 106.68 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "43eb3999-616c-4654-932f-9b83f57a31af")
-	)
 	(label "CONT2"
 		(at 76.2 90.17 0)
 		(effects
@@ -3609,16 +3599,6 @@
 			(justify left bottom)
 		)
 		(uuid "849622a6-d6c3-4073-b70d-e7fa42651707")
-	)
-	(label "IN1+"
-		(at 106.68 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8c4dc4af-0f0a-4c8e-8c2b-a42c4e846f3a")
 	)
 	(label "IN2+"
 		(at 176.53 104.14 0)
@@ -3699,16 +3679,6 @@
 			(justify left bottom)
 		)
 		(uuid "c678ae05-c48d-483c-8381-f1b172ed26da")
-	)
-	(label "IN3+"
-		(at 106.68 185.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e47ce04c-d8e6-463e-a2d1-87587792f0b1")
 	)
 	(label "CONT1"
 		(at 137.16 36.83 0)
@@ -4887,83 +4857,6 @@
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
 					(reference "#PWR0407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 106.68 175.26 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "244da7ac-8401-4d93-918f-d2de9c371327")
-		(property "Reference" "TP401"
-			(at 109.982 177.673 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 109.982 172.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "standards:Testpoint_1.0mm"
-			(at 106.68 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 106.68 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b54f6715-29f5-478e-a390-ce84060020e7")
-		)
-		(instances
-			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "TP401")
 					(unit 1)
 				)
 			)
@@ -9645,83 +9538,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 106.68 180.34 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "94403101-ef14-4450-8780-4d9fa66126cd")
-		(property "Reference" "TP402"
-			(at 109.982 182.753 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 109.982 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "standards:Testpoint_1.0mm"
-			(at 106.68 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 106.68 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4090c75-1b74-40f7-8207-c20ea146b492")
-		)
-		(instances
-			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "TP402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 67.31 189.23 0)
 		(unit 1)
@@ -11743,83 +11559,6 @@
 			(project "cryogenicController"
 				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
 					(reference "R409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 106.68 185.42 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c8a11192-da38-45db-87e6-a044d80be474")
-		(property "Reference" "TP403"
-			(at 109.982 187.833 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 109.982 182.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "standards:Testpoint_1.0mm"
-			(at 106.68 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 106.68 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5309685c-7a1e-4b27-8d59-fb9cfa691734")
-		)
-		(instances
-			(project "cryogenicController"
-				(path "/cbeeb003-c3fe-4807-ac54-05dbc29d640b/3d3daf9c-67ec-4417-afcc-3d3ff5cecd05"
-					(reference "TP403")
 					(unit 1)
 				)
 			)
